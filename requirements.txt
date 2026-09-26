@@ -13,3 +13,4 @@ anthropic>=0.34
 ollama>=0.4
 vaderSentiment>=3.3
 torch==2.6.0
+torchvision==0.21.0
