@@ -8,7 +8,6 @@ __pycache__/
 models/*.pt
 models/*.json
 models/cv_predictions.csv
-ugbs_welfare_db/
 welfare_analytics.sqlite3
 
 # Scratch / working files, not deliverables
