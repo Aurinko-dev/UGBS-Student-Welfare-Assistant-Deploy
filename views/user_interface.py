@@ -539,7 +539,8 @@ if user_query:
         with st.spinner("Searching official welfare policy documents..."):
             results = vectorstore.similarity_search_with_score(normalized_query, k=3)
 
-        if not results or results[0][1] > CONFIDENCE_THRESHOLD:
+        _retrieval_cutoff = st.session_state.get("tuning_retrieval_cutoff", CONFIDENCE_THRESHOLD)
+        if not results or results[0][1] > _retrieval_cutoff:
             msg = llm_engine.get_not_in_kb_reply(user_query)
             msg += _ADMIN_HANDOFF
             if escalated:

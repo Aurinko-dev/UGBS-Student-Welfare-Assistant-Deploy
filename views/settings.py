@@ -1,4 +1,4 @@
-import os
+﻿import os
 from datetime import datetime
 
 import streamlit as st
@@ -118,3 +118,47 @@ if test_query:
                  f"Escalated: **{'YES — ' + f_reason if f_esc else 'no'}**")
         if f_note:
             st.caption(f"Adjustments applied: {f_note}")
+
+
+# --- Generation & decision tuning -----------------------------------------
+import streamlit as st
+st.divider()
+st.markdown("#### Generation & decision tuning")
+st.caption(
+    "Session-only � resets when you close the tab. "
+    "Classification and chit-chat replies are excluded so eval numbers stay reproducible."
+)
+
+col_a, col_b = st.columns(2)
+
+with col_a:
+    st.session_state["tuning_temperature"] = st.slider(
+        "LLM temperature",
+        min_value=0.0, max_value=1.0,
+        value=st.session_state.get("tuning_temperature", 0.3),
+        step=0.05,
+        help="Higher = more creative answers. Lower = more consistent and factual.",
+    )
+    st.session_state["tuning_classifier_cutoff"] = st.slider(
+        "Classifier confidence cutoff",
+        min_value=0.30, max_value=0.95,
+        value=st.session_state.get("tuning_classifier_cutoff", 0.55),
+        step=0.05,
+        help="Below this confidence the neural classifier defers to rule-based fallback.",
+    )
+
+with col_b:
+    st.session_state["tuning_max_tokens"] = st.slider(
+        "Max response tokens",
+        min_value=100, max_value=1000,
+        value=st.session_state.get("tuning_max_tokens", 500),
+        step=50,
+        help="Maximum tokens the LLM can generate per answer.",
+    )
+    st.session_state["tuning_retrieval_cutoff"] = st.slider(
+        "Retrieval confidence cutoff",
+        min_value=0.50, max_value=1.50,
+        value=st.session_state.get("tuning_retrieval_cutoff", 1.0),
+        step=0.05,
+        help="ChromaDB distance threshold � above this the assistant says it does not know.",
+    )
