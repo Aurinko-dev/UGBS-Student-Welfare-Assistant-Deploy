@@ -1,4 +1,4 @@
-"""
+﻿"""
 Entry point:  streamlit run app.py
 
 This file is now only the ROUTER. It sets up the page, the shared styling and
@@ -17,17 +17,21 @@ from ui_theme import inject_css, wide
 
 st.set_page_config(
     page_title="UGBS Student Welfare AI",
-    page_icon="🎓",
+    page_icon="ðŸŽ“",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+import os
+if not os.path.exists("./ugbs_welfare_db"):
+    import build_vectorstore as _bvs
+    _bvs.build_and_save_vectorstore(_bvs.chunk_documents(_bvs.load_md_documents()))
 analytics_db.init_db()
 inject_css()
 
-ui_page = st.Page("views/user_interface.py", title="User Interface", icon="💬", default=True)
-admin_page = st.Page("views/admin_interface.py", title="Admin Interface", icon="📊")
-live_page = st.Page("views/live_admin_interface.py", title="Live Admin Interface", icon="🔴")
-settings_page = st.Page("views/settings.py", title="Settings", icon="⚙️")
+ui_page = st.Page("views/user_interface.py", title="User Interface", icon="ðŸ’¬", default=True)
+admin_page = st.Page("views/admin_interface.py", title="Admin Interface", icon="ðŸ“Š")
+live_page = st.Page("views/live_admin_interface.py", title="Live Admin Interface", icon="ðŸ”´")
+settings_page = st.Page("views/settings.py", title="Settings", icon="âš™ï¸")
 
 # Pages shown in the main navigation block (Settings sits separately, below a divider).
 main_pages = [ui_page, admin_page, live_page]
@@ -77,7 +81,7 @@ with st.sidebar:
 
     # 4. Chat-only action (visible, named button).
     if nav.title == ui_page.title:
-        st.button("🗑️  Clear chat history", key="clear_chat", on_click=_clear_chat,
+        st.button("ðŸ—‘ï¸  Clear chat history", key="clear_chat", on_click=_clear_chat,
                   **wide(st.button))
 
     # 5. Settings, last.
