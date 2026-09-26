@@ -1,4 +1,4 @@
-"""
+﻿"""
 Builds the ChromaDB vector store from the markdown knowledge base.
 
 Two fixes from the original version:
@@ -126,10 +126,12 @@ def build_and_save_vectorstore(chunks):
                 time.sleep(1)
 
     embeddings = HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL_NAME)
+    import chromadb
+    chroma_client = chromadb.PersistentClient(path=DB_DIR)
     vectorstore = Chroma.from_documents(
         documents=chunks,
         embedding=embeddings,
-        persist_directory=DB_DIR,
+        client=chroma_client,
     )
     print(f"Successfully saved vector DB to '{DB_DIR}'!")
     return vectorstore
