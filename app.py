@@ -17,17 +17,17 @@ from ui_theme import inject_css, wide
 
 st.set_page_config(
     page_title="UGBS Student Welfare AI",
-    page_icon="ðŸŽ“",
+    page_icon="\U0001F393",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 analytics_db.init_db()
 inject_css()
 
-ui_page = st.Page("views/user_interface.py", title="User Interface", icon="ðŸ’¬", default=True)
-admin_page = st.Page("views/admin_interface.py", title="Admin Interface", icon="ðŸ“Š")
-live_page = st.Page("views/live_admin_interface.py", title="Live Admin Interface", icon="ðŸ”´")
-settings_page = st.Page("views/settings.py", title="Settings", icon="âš™ï¸")
+ui_page = st.Page("views/user_interface.py", title="User Interface", icon="\U0001F4AC", default=True)
+admin_page = st.Page("views/admin_interface.py", title="Admin Interface", icon="\U0001F4CA")
+live_page = st.Page("views/live_admin_interface.py", title="Live Admin Interface", icon="\U0001F534")
+settings_page = st.Page("views/settings.py", title="Settings", icon="\u2699\uFE0F")
 
 # Pages shown in the main navigation block (Settings sits separately, below a divider).
 main_pages = [ui_page, admin_page, live_page]

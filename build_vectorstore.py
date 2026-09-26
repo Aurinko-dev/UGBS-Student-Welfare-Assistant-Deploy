@@ -32,7 +32,7 @@ from langchain_text_splitters import (
     RecursiveCharacterTextSplitter,
 )
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+import chromadb
 
 import config
 
@@ -126,13 +126,26 @@ def build_and_save_vectorstore(chunks):
                 time.sleep(1)
 
     embeddings = HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL_NAME)
-    import chromadb
     chroma_client = chromadb.PersistentClient(path=DB_DIR)
-    vectorstore = Chroma.from_documents(
-        documents=chunks,
-        embedding=embeddings,
-        client=chroma_client,
+    collection = chroma_client.get_or_create_collection(
+        name="ugbs_welfare",
+        metadata={"hnsw:space": "cosine"},
     )
+    texts = [c.page_content for c in chunks]
+    metadatas = [c.metadata for c in chunks]
+    ids = [str(i) for i in range(len(chunks))]
+    batch_size = 50
+    for i in range(0, len(texts), batch_size):
+        batch_texts = texts[i:i+batch_size]
+        batch_meta = metadatas[i:i+batch_size]
+        batch_ids = ids[i:i+batch_size]
+        batch_embeddings = embeddings.embed_documents(batch_texts)
+        collection.add(
+            documents=batch_texts,
+            embeddings=batch_embeddings,
+            metadatas=batch_meta,
+            ids=batch_ids,
+        )
     print(f"Successfully saved vector DB to '{DB_DIR}'!")
     return vectorstore
 
