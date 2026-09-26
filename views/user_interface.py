@@ -1,4 +1,4 @@
-"""User Interface: the student-facing chat (selected from the sidebar in app.py)."""
+﻿"""User Interface: the student-facing chat (selected from the sidebar in app.py)."""
 import streamlit as st
 
 from logo import logo_html
@@ -89,14 +89,14 @@ def _render_feedback(interaction_id: int) -> None:
     on every later rerun of this page."""
     given = st.session_state.feedback_given.get(interaction_id)
     if given:
-        st.caption("👍 Marked helpful" if given == "up" else "👎 Marked not helpful")
+        st.caption("ðŸ‘ Marked helpful" if given == "up" else "ðŸ‘Ž Marked not helpful")
         return
     c1, c2, _ = st.columns([1, 1, 10])
-    if c1.button("👍", key=f"fb_up_{interaction_id}"):
+    if c1.button("ðŸ‘", key=f"fb_up_{interaction_id}"):
         analytics_db.log_feedback(interaction_id, "up")
         st.session_state.feedback_given[interaction_id] = "up"
         st.rerun()
-    if c2.button("👎", key=f"fb_down_{interaction_id}"):
+    if c2.button("ðŸ‘Ž", key=f"fb_down_{interaction_id}"):
         analytics_db.log_feedback(interaction_id, "down")
         st.session_state.feedback_given[interaction_id] = "down"
         st.rerun()
@@ -106,44 +106,49 @@ def _loggable(query: str, category: str) -> str:
     """Same redaction policy as the crisis path: sexual harassment / GBV
     disclosures are never stored verbatim in the dashboard-visible log."""
     if category == "Sexual Harassment / GBV":
-        return "[GBV message — redacted from log]"
+        return "[GBV message â€” redacted from log]"
     return query
 
 
-EMERGENCY_MESSAGE_GBV = """### 🚨 This sounds serious — you deserve support from a real person
+EMERGENCY_MESSAGE_GBV = """### ðŸš¨ This sounds serious â€” you deserve support from a real person
 
 I'm an AI intake assistant, so I can't handle this on my own. Please reach out
 to someone who can help right now:
 
-- **CEGENSA (Centre for Gender Studies and Advocacy)** — runs a dedicated
+- **CEGENSA (Centre for Gender Studies and Advocacy)** â€” runs a dedicated
   sexual harassment crisis and counselling unit for students: https://cegensa.ug.edu.gh
-- **University of Ghana Medical Centre** — has an emergency department, and is the
+- **University of Ghana Medical Centre** â€” has an emergency department, and is the
   fastest route if you are hurt or in immediate danger.
-- **The Police** — for serious incidents such as rape or assault, the University's
+- **The Police** â€” for serious incidents such as rape or assault, the University's
   policy advises reporting to the Police as well as to the Anti-Sexual Harassment
   Committee.
-- **Careers and Counselling Directorate (UGCCD)** — confidential emotional support.
-- **A trusted friend, family member, or hall/hostel warden** — please tell someone
+- **Careers and Counselling Directorate (UGCCD)** â€” confidential emotional support.
+- **A trusted friend, family member, or hall/hostel warden** â€” please tell someone
   near you what is going on.
 
 You do not have to file a formal complaint to get support, and you will not be
 penalised for reporting in good faith. What happened is not your fault.
 """
 
-EMERGENCY_MESSAGE = """### 🚨 This sounds urgent — please don't wait on this chat
+EMERGENCY_MESSAGE = """### ðŸš¨ This sounds urgent â€” please don't wait on this chat
 
 I'm an AI intake assistant, and I'm not able to help with a crisis on my own.
 Please reach out to a real person right now:
 
-- **University of Ghana Counselling and Placement Centre (UGCCD)** — go to the
+- **University of Ghana Counselling and Placement Centre (UGCCD)** â€” go to the
   Centre in person if you can, or contact them directly.
-- **University of Ghana Medical Centre** — has an emergency department and is
+- **University of Ghana Medical Centre** â€” has an emergency department and is
   the fastest route if you or someone else is in immediate danger.
-- **A trusted friend, family member, or hall/hostel warden** — please tell
+- **A trusted friend, family member, or hall/hostel warden** â€” please tell
   someone near you what's going on right now.
 
 You matter, and this is worth a real person's attention, not a chatbot's.
 """
+
+import os as _os, build_vectorstore as _bvs
+if not _os.path.exists(config.DB_DIR):
+    _bvs.build_and_save_vectorstore(_bvs.chunk_documents(_bvs.load_md_documents()))
+
 
 @st.cache_resource(show_spinner=False)
 def load_vectorstore():
@@ -173,7 +178,7 @@ USER_AVATAR = "assets/avatar_user.png"
 # --- Topic boxes: each opens a few example questions ---------------------
 TOPICS = {
     "Financial": {
-        "icon": "💰",
+        "icon": "ðŸ’°",
         "questions": [
             "What are the eligibility requirements for SFAO financial aid?",
             "How do I apply for a scholarship?",
@@ -182,7 +187,7 @@ TOPICS = {
         ],
     },
     "Academic": {
-        "icon": "📚",
+        "icon": "ðŸ“š",
         "questions": [
             "What is the policy on probation and academic standing?",
             "How do I apply to defer my programme?",
@@ -191,7 +196,7 @@ TOPICS = {
         ],
     },
     "Graduation": {
-        "icon": "📜",
+        "icon": "ðŸ“œ",
         "questions": [
             "How do I know if I have satisfied all the requirements for graduation?",
             "How do I know I am eligible to graduate?",
@@ -208,7 +213,7 @@ TOPICS = {
         ],
     },
     "Accommodation": {
-        "icon": "🏠",
+        "icon": "ðŸ ",
         "questions": [
             "How does the random bed allocation process work?",
             "How do I get accommodation on campus?",
@@ -217,7 +222,7 @@ TOPICS = {
         ],
     },
     "Programmes": {
-        "icon": "🎓",
+        "icon": "ðŸŽ“",
         "guidance": True,
         "questions": [
             "What options can I choose at UGBS?",
@@ -227,7 +232,7 @@ TOPICS = {
         ],
     },
     "Personal": {
-        "icon": "💙",
+        "icon": "ðŸ’™",
         "questions": [
             "How can I book an appointment with a counsellor at UGCCD?",
             "Is counselling confidential?",
@@ -292,7 +297,7 @@ if active_topic:
             # open -- matches every other entry here being a click-to-open
             # item, not an always-visible block.
             is_guidance_open = st.session_state.get("show_guidance", False)
-            if st.button("🧭 What major might suit me? (quick quiz)",
+            if st.button("ðŸ§­ What major might suit me? (quick quiz)",
                         key=f"guidance_toggle_{active_topic}", **wide(st.button)):
                 st.session_state.show_guidance = not is_guidance_open
                 st.rerun()
@@ -367,7 +372,7 @@ if user_query:
                               if crisis_category == "Sexual Harassment / GBV"
                               else EMERGENCY_MESSAGE)
             st.markdown(crisis_message)  # pure Markdown; no HTML needed, see history-loop note above
-            analytics_db.log_interaction("[crisis message — redacted from log]",
+            analytics_db.log_interaction("[crisis message â€” redacted from log]",
                                           crisis_category, "Critical",
                                           escalated=True)
             st.session_state.messages.append({"role": "assistant", "content": crisis_message})
@@ -452,7 +457,7 @@ if user_query:
             # with no retention policy. Category/severity/timestamp are
             # still logged (that's what the analytics need), the message
             # itself is not.
-            analytics_db.log_interaction("[crisis message — redacted from log]",
+            analytics_db.log_interaction("[crisis message â€” redacted from log]",
                                           crisis_category, "Critical",
                                           escalated=True)
             st.session_state.messages.append({"role": "assistant", "content": crisis_message})
@@ -519,7 +524,7 @@ if user_query:
         if (category in config.NATIONALITY_SENSITIVE_CATEGORIES
                 and st.session_state.nationality is None
                 and any(h in normalized_query.lower() for h in _FEE_SPECIFIC_HINTS)):
-            msg = ("Quick question before I point you to the right figures — "
+            msg = ("Quick question before I point you to the right figures â€” "
                    "are you a **Ghanaian** or **international** student? Fees and "
                    "some payment details differ between the two.")
             st.markdown(msg)
@@ -589,7 +594,7 @@ if user_query:
         # weight of the full crisis UI.
         if escalation_reason == "possible_crisis":
             answer += ("\n\n---\n*If things ever feel like too much, support is always "
-                       "available — you don't have to wait for it to get worse. "
+                       "available â€” you don't have to wait for it to get worse. "
                        "You can also reach out any time through the resources in "
                        "your welfare office.*")
 

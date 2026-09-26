@@ -21,10 +21,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-import os
-if not os.path.exists("./ugbs_welfare_db"):
-    import build_vectorstore as _bvs
-    _bvs.build_and_save_vectorstore(_bvs.chunk_documents(_bvs.load_md_documents()))
 analytics_db.init_db()
 inject_css()
 
