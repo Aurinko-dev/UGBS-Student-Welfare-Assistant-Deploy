@@ -1,0 +1,22 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data — not source
+models/*.pt
+models/*.json
+models/cv_predictions.csv
+ugbs_welfare_db/
+welfare_analytics.sqlite3
+
+# Scratch / working files, not deliverables
+*.zip
+inventory_report.txt
+ui_test_results
+all_project_files.txt
+eval_output*/
+stage5_evaluation_output/
+
+# Local secrets

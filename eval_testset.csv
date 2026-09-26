@@ -1,0 +1,88 @@
+query,category,severity,should_escalate
+I am failing two courses and I don't know who to talk to,Academic Distress,Medium,0
+how do i withdraw from the school,Academic Distress,High,1
+My lecturer has not released my results for two semesters,Academic Distress,Medium,0
+I want to drop out because I cannot cope with the workload,Academic Distress,High,1
+How do I appeal a grade I think is wrong,Academic Distress,Low,0
+I have a resit but I don't know the registration deadline,Academic Distress,Low,0
+I might be dismissed for poor grades and I am scared,Academic Distress,High,1
+Where can I get a tutor for accounting,Academic Distress,Low,0
+My CGPA is 1.4 and I am on probation,Academic Distress,High,1
+Can I defer my semester,Academic Distress,Medium,0
+I can't pay my fees and I'm failing two courses,Financial Distress,Medium,0
+I can't afford my hostel fees this semester,Financial Distress,Medium,0
+How do I apply for a scholarship,Financial Distress,Low,0
+I have not eaten properly for days because I have no money,Financial Distress,High,1
+My parents lost their jobs and I cannot pay school fees,Financial Distress,Medium,0
+Is there a payment plan for tuition,Financial Distress,Low,0
+I have been sent home for outstanding fees,Financial Distress,High,1
+Where can I apply for financial aid,Financial Distress,Low,0
+I have no money for transport to campus,Financial Distress,Medium,0
+My student loan has not been disbursed,Financial Distress,Medium,0
+A lecturer is sending me inappropriate messages at night,Sexual Harassment / GBV,Medium,1
+A course mate touched me without my consent,Sexual Harassment / GBV,High,1
+I am being harassed by a senior student in my hostel,Sexual Harassment / GBV,Medium,1
+Someone is threatening to share my private photos,Sexual Harassment / GBV,High,1
+A lecturer said I would pass if I sleep with him,Sexual Harassment / GBV,High,1
+"I want to report sexual harassment, how do I do it",Sexual Harassment / GBV,Medium,1
+A man keeps following me and making sexual comments on campus,Sexual Harassment / GBV,Medium,1
+I want to end my life,CRISIS,Critical,1
+I don't want to live anymore,CRISIS,Critical,1
+I am thinking of killing myself,CRISIS,Critical,1
+I feel like harming myself,CRISIS,Critical,1
+Nobody would miss me if I was gone,CRISIS,Critical,1
+hello,CHITCHAT,,0
+good morning,CHITCHAT,,0
+thank you,CHITCHAT,,0
+how are you,CHITCHAT,,0
+bye,CHITCHAT,,0
+How do I apply for a hostel room,Accommodation,Low,0
+My roommate keeps making my life difficult,Accommodation,Medium,0
+I have been locked out of my hostel and have nowhere to sleep tonight,Accommodation,High,1
+Are there off-campus hostels near Legon,Accommodation,Low,0
+The hostel has had no water for a week,Accommodation,Medium,0
+Which hall is for international students,Accommodation,Low,0
+There is a leak in my room and my books are ruined,Accommodation,Medium,0
+My landlord evicted me off campus and I have nowhere to go,Accommodation,High,1
+When does hostel registration open,Accommodation,Low,0
+Can I change my hostel room,Accommodation,Low,0
+I feel very anxious before every exam,Mental Health / Counselling,Medium,0
+How do I book a counselling session,Mental Health / Counselling,Low,0
+I have been feeling really low and I cannot focus on anything,Mental Health / Counselling,Medium,0
+Is counselling free for students,Mental Health / Counselling,Low,0
+I have not slept in days and I feel like I am falling apart,Mental Health / Counselling,High,1
+Where is the counselling centre located,Mental Health / Counselling,Low,0
+I feel so stressed and lonely on campus,Mental Health / Counselling,Medium,0
+Can I talk to a counsellor about my relationship problems,Mental Health / Counselling,Low,0
+I keep having panic attacks in lectures,Mental Health / Counselling,High,1
+How do I cope with exam stress,Mental Health / Counselling,Low,0
+How do I get an internship,Career Guidance,Low,0
+Can someone review my CV,Career Guidance,Low,0
+Where is the careers office,Career Guidance,Low,0
+I do not know what to do after graduation,Career Guidance,Low,0
+How do I prepare for a job interview,Career Guidance,Low,0
+Are there graduate programmes in analytics,Career Guidance,Low,0
+How do I get a recommendation letter from a lecturer,Career Guidance,Low,0
+Which companies recruit UGBS graduates,Career Guidance,Low,0
+I am about to graduate with no plan and I am panicking,Career Guidance,Medium,0
+Do you organise career fairs,Career Guidance,Low,0
+How do I run for JCR president,Student Governance / JCR,Low,0
+When are the SRC elections,Student Governance / JCR,Low,0
+What does the JCR constitution say about impeachment,Student Governance / JCR,Low,0
+How do I file a complaint about my hall JCR executive,Student Governance / JCR,Medium,0
+How can I join a student association,Student Governance / JCR,Low,0
+Who is allowed to vote in SRC elections,Student Governance / JCR,Low,0
+Where can I read the BHJCR constitution,Student Governance / JCR,Low,0
+Our JCR treasurer is misusing funds,Student Governance / JCR,Medium,0
+How are JCR executives elected,Student Governance / JCR,Low,0
+What are the duties of the SRC,Student Governance / JCR,Low,0
+What is the capital of France,Out of Scope,Low,0
+How do I cook jollof rice,Out of Scope,Low,0
+Who won the football match yesterday,Out of Scope,Low,0
+What is the price of bitcoin today,Out of Scope,Low,0
+Recommend a good movie to watch,Out of Scope,Low,0
+Solve 2x + 3 = 11,Out of Scope,Low,0
+Help me fix my Python code,Out of Scope,Low,0
+What is the weather like in Kumasi,Out of Scope,Low,0
+How do I renew my driving licence,Out of Scope,Low,0
+Which phone should I buy,Out of Scope,Low,0

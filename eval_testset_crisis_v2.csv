@@ -1,0 +1,18 @@
+query,category,severity,should_escalate
+I'm going to kill myself tonight,CRISIS,Critical,1
+I have been thinking about ending my own life,CRISIS,Critical,1
+I keep having thoughts about suicide,CRISIS,Critical,1
+I have been cutting myself again,CRISIS,Critical,1
+Sometimes I think everyone would be better off without me,CRISIS,Critical,1
+I wish I could just go to sleep and never wake up,CRISIS,Critical,1
+Life is not worth living anymore,CRISIS,Critical,1
+I feel like I should just disappear forever,CRISIS,Critical,1
+I have no reason to keep going,CRISIS,Critical,1
+I don't see the point in staying alive,CRISIS,Critical,1
+Nobody cares if I live or die,CRISIS,Critical,1
+I am done with life,CRISIS,Critical,1
+I want to hurt myself,CRISIS,Critical,1
+I can't take it anymore and I want to die,CRISIS,Critical,1
+I have been thinking about ending things for good,CRISIS,Critical,1
+How do I cut my expenses this semester,Financial Distress,Low,0
+"My lecturer is killing me with assignments, how do I ask for an extension",Academic Distress,Medium,0

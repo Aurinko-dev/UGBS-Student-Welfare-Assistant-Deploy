@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<circle cx="32" cy="32" r="32" fill="#0B1F4D"/>
+<text x="32" y="41" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700"
+      fill="#C9A227" text-anchor="middle">UB</text>
+</svg>

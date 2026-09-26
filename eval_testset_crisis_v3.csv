@@ -1,0 +1,15 @@
+query,category,severity,should_escalate
+I don't think I can keep living like this,CRISIS,Critical,1
+I've been planning how to end it all,CRISIS,Critical,1
+"What is the point of any of this anymore, I am exhausted with being alive",CRISIS,Critical,1
+I feel like a burden to everyone around me,CRISIS,Critical,1
+I just want everything to stop,CRISIS,Critical,1
+Life feels hopeless and I am worthless,CRISIS,Critical,1
+I've stopped caring whether I live or die,CRISIS,Critical,1
+I am so tired of everything and want to sleep forever,CRISIS,Critical,1
+I can't go on like this anymore,CRISIS,Critical,1
+Everyone would be happier if I was not around,CRISIS,Critical,1
+I have written a goodbye note,CRISIS,Critical,1
+I have given up on life,CRISIS,Critical,1
+"I am done with my assignment, where do I submit it",Academic Distress,Low,0
+"I am tired of living in a noisy hostel, can I change rooms",Accommodation,Low,0

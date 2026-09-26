@@ -1,0 +1,103 @@
+text,category,severity
+"I cannot pay my fees this semester and registration closes soon",Financial Distress,Medium
+"What are the eligibility requirements for SFAO financial aid?",Financial Distress,Low
+"My sponsor has stopped paying my school fees and I don't know what to do",Financial Distress,High
+"I need a refund for a course I dropped last semester",Financial Distress,Low
+"I'm about to be sacked from the hall because I haven't paid my fees",Financial Distress,High
+"How do I apply for a scholarship at UG?",Financial Distress,Low
+"I can't afford textbooks this semester, is there any support for that?",Financial Distress,Low
+"My financial aid application was rejected and I have no other way to pay",Financial Distress,High
+"Is there a payment plan option for tuition fees?",Financial Distress,Low
+"I'm behind on fees and worried I'll be de-registered before exams",Financial Distress,High
+"Can international students apply for SFAO support?",Financial Distress,Low
+"My allowance from home hasn't come and I have no money for food or transport this week",Financial Distress,Medium
+"What documents do I need to submit for a fee waiver application?",Financial Distress,Low
+"I lost my part time job and now I can't cover my accommodation fees",Financial Distress,High
+"How long does the SFAO application review usually take?",Financial Distress,Low
+"I am failing two of my courses and worried about being placed on probation",Academic Distress,Medium
+"What is the policy on academic probation and how do I get off it?",Academic Distress,Low
+"I want to defer my course this semester, what's the process?",Academic Distress,Low
+"I missed my exams because I was sick, can I still pass this semester?",Academic Distress,Medium
+"How do I apply for a course withdrawal before the deadline?",Academic Distress,Low
+"My GPA has dropped badly and I'm scared I'll be asked to leave the programme",Academic Distress,High
+"Can freshmen apply for deferment the same way as continuing students?",Academic Distress,Low
+"I'm struggling to keep up with coursework across three departments this semester",Academic Distress,Medium
+"What happens if I fail a resit exam?",Academic Distress,Low
+"I need to check the requirements for changing my major",Academic Distress,Low
+"I've been placed on academic probation and don't understand what it means for my degree",Academic Distress,Medium
+"Is there academic support for students who are repeating a year?",Academic Distress,Low
+"I'm at risk of losing my place in the programme because of low grades",Academic Distress,High
+"How do I request a transcript for a job application?",Academic Distress,Low
+"I need help understanding the credit requirements for graduation",Academic Distress,Low
+"My hostel roommate situation has become unbearable and I need to move",Accommodation,Medium
+"How do I apply for university hostel accommodation next semester?",Accommodation,Low
+"My landlord is threatening to evict me before the semester ends",Accommodation,High
+"Is there a list of approved off-campus hostels near campus?",Accommodation,Low
+"I've had ongoing issues with noise and safety in my current hostel",Accommodation,Medium
+"What is the process for requesting a hostel room change?",Accommodation,Low
+"My hostel doesn't have running water and it's been weeks",Accommodation,Medium
+"Can first year students choose which hall they stay in?",Accommodation,Low
+"I paid hostel fees but haven't been allocated a room yet and classes start soon",Accommodation,High
+"What are the rules around guests staying overnight in the hostel?",Accommodation,Low
+"How can I book an appointment with a counsellor at UGCCD?",Mental Health / Counselling,Low
+"I've been feeling really overwhelmed and anxious about school lately",Mental Health / Counselling,Medium
+"What services does the counselling and placement centre offer?",Mental Health / Counselling,Low
+"I'm finding it hard to cope with stress from combining school and work",Mental Health / Counselling,Medium
+"Is counselling confidential if I book a session?",Mental Health / Counselling,Low
+"I feel very isolated since moving to campus and don't know who to talk to",Mental Health / Counselling,Medium
+"How many free counselling sessions am I entitled to as a student?",Mental Health / Counselling,Low
+"I've been struggling to sleep and concentrate because of exam pressure",Mental Health / Counselling,Medium
+"Can I get a referral to a psychiatrist through the university?",Mental Health / Counselling,Low
+"What's the difference between academic advising and counselling support?",Mental Health / Counselling,Low
+"How do I get help writing a CV for internship applications?",Career Guidance,Low
+"What career fairs or recruitment events does the university run?",Career Guidance,Low
+"Can the careers office help me prepare for a job interview?",Career Guidance,Low
+"I don't know what career path fits my business analytics degree",Career Guidance,Low
+"Where can I find internship opportunities related to my programme?",Career Guidance,Low
+"Does UGCCD offer mock interview sessions before recruitment season?",Career Guidance,Low
+"I need feedback on my resume before submitting job applications",Career Guidance,Low
+"What resources exist for students exploring graduate school options?",Career Guidance,Low
+"How do I get connected with alumni in my field for mentorship?",Career Guidance,Low
+"Is there support for students trying to start their own business after graduation?",Career Guidance,Low
+"What's the weather forecast for Accra this weekend?",Out of Scope,Low
+"Who won the football match yesterday?",Out of Scope,Low
+"Can you recommend a good jollof rice recipe?",Out of Scope,Low
+"What's happening in the news about the election?",Out of Scope,Low
+"Can you write me a poem about the ocean?",Out of Scope,Low
+"What movie should I watch tonight?",Out of Scope,Low
+"How do I fix a flat tyre on my car?",Out of Scope,Low
+"What are the lyrics to that new Afrobeats song?",Out of Scope,Low
+"Tell me a joke to cheer me up",Out of Scope,Low
+"What time does the mall close today?",Out of Scope,Low
+"How do I raise a complaint with the BHJCR Welfare Committee",Student Governance / JCR,Low
+"Who is my class representative and how do I contact them",Student Governance / JCR,Low
+"How do SRC elections work and when can I vote",Student Governance / JCR,Low
+"I think a BHJCR officer misused JCR funds, what can I do",Student Governance / JCR,Medium
+"How do I run for a position in the BHJCR General Assembly",Student Governance / JCR,Low
+"What does the Judiciary of the BHJCR handle",Student Governance / JCR,Low
+"How can I report a JCR election dispute",Student Governance / JCR,Medium
+"Who handles student discipline cases at the university level",Student Governance / JCR,Medium
+"My internship interview is tomorrow morning and I have no CV ready",Career Guidance,High
+"I missed the application deadline for the graduate trainee program, is there any way to still apply today",Career Guidance,High
+"An employer wants my transcript by end of day and career services is closed",Career Guidance,High
+"What time does the careers office open on Mondays",Career Guidance,Low
+"Can I still get help picking a major if I'm already in level 300",Career Guidance,Medium
+"The BHJCR disciplinary hearing about me is tomorrow and I don't understand the process, I need help now",Student Governance / JCR,High
+"I was just removed from my class rep position and I think it was against the constitution, what do I do immediately",Student Governance / JCR,High
+"How many members are on the BHJCR Judiciary",Student Governance / JCR,Low
+"My hall has no water and it's been three days, this is urgent",Accommodation,High
+"I was just locked out of my hostel room at night with nowhere to go",Accommodation,High
+"What are visiting hours at Akuafo Hall",Accommodation,Low
+"I'm scared to go back to my room because of an ongoing dispute with my roommate",Mental Health / Counselling,High
+"I've been feeling really overwhelmed and can't focus on anything this week",Mental Health / Counselling,Medium
+"How do I know if my financial aid application was received",Financial Distress,Low
+"My scholarship payment is late and I'm about to be sent home for unpaid fees this week",Financial Distress,High
+"How do I report sexual harassment at UGBS",Sexual Harassment / GBV,Medium
+"What does CEGENSA actually do",Sexual Harassment / GBV,Low
+"A lecturer keeps making inappropriate comments about my appearance",Sexual Harassment / GBV,High
+"Someone in my class keeps sending me unwanted messages and it's making me uncomfortable",Sexual Harassment / GBV,Medium
+"What happens if I file a sexual harassment complaint, will it stay confidential",Sexual Harassment / GBV,Medium
+"Can I report harassment anonymously without starting a formal case",Sexual Harassment / GBV,Low
+"I think I'm being stalked by someone from another department",Sexual Harassment / GBV,High
+"What's the difference between informal and formal harassment reporting",Sexual Harassment / GBV,Low
+"My coursemate was inappropriately touched at a school event, how do they report it",Sexual Harassment / GBV,High
