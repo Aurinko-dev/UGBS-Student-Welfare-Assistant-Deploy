@@ -208,3 +208,35 @@ A: The 2026/2027 fee schedule is typically released by AAD before the start of t
 3. Your admission letter — fees are stated there for your specific programme
 4. STS portal at https://sts.ug.edu.gh under your student account
 If you still cannot find it, contact AAD at aad@ug.edu.gh or SFAO at finaid@ug.edu.gh.
+## Q: How much are my fees for this academic year?
+A: Fees at the University of Ghana vary by academic year, programme, and student type (Ghanaian or international). To give you the right information, which academic year are you in?
+- 2024/2025
+- 2025/2026
+- 2026/2027
+
+Once you confirm your academic year, the best place to get the exact figures is:
+1. Your admission letter — fees for your specific programme are stated there
+2. The AAD Schedule of Fees page: https://www.ug.edu.gh/aad/fees
+3. The UGBS fees page (for Masters): https://ugbs.ug.edu.gh/ugbs-masters-programme-fees
+4. The STS portal under your student account: https://sts.ug.edu.gh
+5. Contact SFAO directly: finaid@ug.edu.gh or visit the GCB Building (opposite New N Block)
+
+## Q: What are the fees for the 2024/2025 academic year?
+A: The 2024/2025 academic year fees are now in the past. For historical fee records related to your account, log into the STS portal at https://sts.ug.edu.gh or contact the Students Accounts Office at the JQB Building (Ground Floor) or email studentsaccounts@ug.edu.gh.
+
+## Q: What are the fees for the 2025/2026 academic year?
+A: For the 2025/2026 academic year, UGBS Masters programme fees for Ghanaian students range from approximately GHS 11,624 to GHS 17,603 per semester depending on the programme and mode of study. International students pay USD 3,713.50 to USD 4,577.50 per semester. For undergraduate fees, check the AAD Schedule of Fees at https://www.ug.edu.gh/aad/fees. Always confirm the exact figure for your specific programme with SFAO (finaid@ug.edu.gh) or Students Accounts (studentsaccounts@ug.edu.gh).
+
+## Q: What are the fees for the 2026/2027 academic year?
+A: The 2026/2027 fee schedule is typically published by AAD before the start of the academic year. Check:
+1. https://www.ug.edu.gh/aad/fees
+2. https://ugbs.ug.edu.gh (Academics menu)
+3. Your admission letter
+4. STS portal: https://sts.ug.edu.gh
+If not yet published, contact SFAO at finaid@ug.edu.gh or visit the GCB Building (opposite New N Block).
+
+## Q: Where can I view my transcript?
+A: You can view and request your transcript in two ways:
+1. **MIS Web (online):** Log into the UG MIS Web portal through STS at https://sts.ug.edu.gh. Your academic transcript is accessible from your student dashboard. You can also track transcript requests and payments there.
+2. **In person:** Visit the Academic Affairs Directorate (AAD) at Room D10, Left Wing of the Registry. Email: academic@ug.edu.gh.
+For an official transcript to send to a third party (employer, institution), you must request it formally through STS and pay the applicable fee. Express processing is available for graduate transcripts via the School of Graduate Studies (SGS).
