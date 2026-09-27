@@ -89,10 +89,10 @@ def _render_feedback(interaction_id: int) -> None:
     on every later rerun of this page."""
     given = st.session_state.feedback_given.get(interaction_id)
     if given:
-        st.caption("ï¿½? Marked helpful" if given == "up" else "ðŸ‘Ž Marked not helpful")
+        st.caption("👍 Marked helpful" if given == "up" else "ðŸ‘Ž Marked not helpful")
         return
     c1, c2, _ = st.columns([1, 1, 10])
-    if c1.button("ï¿½?", key=f"fb_up_{interaction_id}"):
+    if c1.button("👍", key=f"fb_up_{interaction_id}"):
         analytics_db.log_feedback(interaction_id, "up")
         st.session_state.feedback_given[interaction_id] = "up"
         st.rerun()
@@ -110,7 +110,7 @@ def _loggable(query: str, category: str) -> str:
     return query
 
 
-EMERGENCY_MESSAGE_GBV = """### ðŸš¨ This sounds serious â€” you deserve support from a real person
+EMERGENCY_MESSAGE_GBV = """### 🚨 This sounds serious â€” you deserve support from a real person
 
 I'm an AI intake assistant, so I can't handle this on my own. Please reach out
 to someone who can help right now:
@@ -130,7 +130,7 @@ You do not have to file a formal complaint to get support, and you will not be
 penalised for reporting in good faith. What happened is not your fault.
 """
 
-EMERGENCY_MESSAGE = """### ðŸš¨ This sounds urgent â€” please don't wait on this chat
+EMERGENCY_MESSAGE = """### 🚨 This sounds urgent â€” please don't wait on this chat
 
 I'm an AI intake assistant, and I'm not able to help with a crisis on my own.
 Please reach out to a real person right now:
@@ -297,7 +297,7 @@ if active_topic:
             # open -- matches every other entry here being a click-to-open
             # item, not an always-visible block.
             is_guidance_open = st.session_state.get("show_guidance", False)
-            if st.button("ðŸ§­ What major might suit me? (quick quiz)",
+            if st.button("🧠­ What major might suit me? (quick quiz)",
                         key=f"guidance_toggle_{active_topic}", **wide(st.button)):
                 st.session_state.show_guidance = not is_guidance_open
                 st.rerun()
@@ -626,3 +626,7 @@ if user_query:
         _render_feedback(interaction_id)
         st.session_state.messages.append({"role": "assistant", "content": full_reply,
                                            "interaction_id": interaction_id})
+
+
+
+
