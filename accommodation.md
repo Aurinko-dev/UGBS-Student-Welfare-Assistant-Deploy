@@ -47,3 +47,11 @@ A: Per the Schedule of Fees page: 100% of the residential fee must be paid befor
 
 ## Note on nationality
 Academic and residential fees vary for Ghanaian and International students. When a student asks about specific fee amounts, ask whether they are a Ghanaian or international student before pointing them to the correct fee schedule/payment info link, since the figures and bank details differ.
+## Q: What are the private and partnership hostels near campus?
+A: In addition to the Traditional Halls and UGEL Hostels, several private and partnership hostels operate near the Legon campus, generally offering fewer students per room, self-contained washrooms, and reliable internet at higher fee rates than Traditional Halls. These include: Pentagon Hostels (Blocks A, B, and C, operated in partnership with SSNIT); Evandy Hostel; Vikings Hostel; Jubilee Hall and the International Student Hostel (ISH); and Legon Hall Annex C, which is reserved for postgraduate students. Private hostels are managed independently, not by the University's Traditional Halls or UGEL Hostels offices, so fees, room allocation, and rules are set by each hostel's own management -- confirm current rates and availability directly with the hostel.
+
+## Q: Name all the halls and hostels on campus.
+A: University of Ghana accommodation falls into three categories:
+1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
+2. **UGEL Hostels:** Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson.
+3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).

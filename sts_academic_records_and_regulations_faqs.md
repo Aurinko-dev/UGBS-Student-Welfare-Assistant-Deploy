@@ -189,3 +189,31 @@ Semester GPA = Total GPT / Total Credit Hours
 For a visual walkthrough, watch this tutorial: https://www.youtube.com/results?search_query=university+of+ghana+GPA+calculation
 
 For your exact GPA, log into the STS portal at https://sts.ug.edu.gh — your transcript shows your current CGPA.
+
+## Q: What happens if I fail a course?
+A: If you fail a course at UGBS, you may be eligible to take a resit examination. First, check your result to confirm the grade you received. If the course is eligible for a resit, register for the resit during the designated registration period and take the examination at the next available opportunity. If you pass the resit, the course requirement can be cleared according to the University's grading rules. If you fail a compulsory course, you will need to pass it before completing your graduation requirements.
+
+To register for the resit: log into the student portal, go to the examination/resit registration section, select the failed course, complete the registration and make any required payment before the deadline. After registering, check the resit examination timetable for the date and venue.
+
+Note: this is separate from missing an exam entirely, which results in a grade of 'X' rather than a failing grade -- see the missed-exam/medical-report process elsewhere in this document for that situation.
+
+## Q: How can I access research papers, academic journals, and research books for my studies at UG?
+A: You can access these through the University of Ghana Library System (Balme Library):
+
+**Online databases (from on or off campus):**
+- The University subscribes to major academic databases including ScienceDirect, JSTOR, EBSCOhost, Scopus, and Sage Research Methods, giving full-text access to peer-reviewed journals and e-books.
+- Off-campus access: log in through the official UG EZProxy Off-Campus Service using your institutional (student) computing credentials to verify your student status.
+- UGSpace is the University's open-access institutional repository for past theses, dissertations, and local research publications.
+
+**Physical library spaces at UGBS:**
+- UGBS Undergraduate Library (K. E. Adjei Library) -- located at the main UGBS undergraduate building, holds printed textbooks and commerce/government publications.
+- UGBS Graduate Library (Tullow Library) -- located at the UGBS Graduate Building, for graduate-level research.
+- Knowledge Commons (KC) -- a computer lab on the ground floor of the East Wing of the main Balme Library, useful for digital research and searching databases.
+
+**Other resources:**
+- Past examination papers are available through the library's Online Past Questions Service at the library help desks.
+- The library offers support and training for reference management tools such as Mendeley and EndNote.
+
+If you have forgotten your login password for off-campus access, this is handled by University IT Support (ITS). Note: Ghanaian and international students may be issued credentials through slightly different processes, so before recommending where to reset a password or resolve an access issue, ask whether the student is Ghanaian or an international student, and confirm the current process with the Balme Library help desk or ITS if the two differ.
+
+Recommended office: Balme Library / UGBS Library staff for access issues; University IT Support (ITS) for password resets -- confirm nationality (Ghanaian vs. international student) first, as escalation contacts may differ.

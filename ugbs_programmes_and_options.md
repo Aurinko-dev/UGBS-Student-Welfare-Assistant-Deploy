@@ -86,3 +86,18 @@ A: At UGBS, all BSc Administration students choose their major (option) at Level
 
 ## Q: Which level do I major at the business school?
 A: You major at Level 300. Before that, Level 100 and Level 200 are common to all BSc Administration students.
+
+## Q: What options can I choose at UGBS?
+A: You can choose from nine BSc Administration options at UGBS: Accounting, Banking and Finance, Insurance, Marketing, E-Commerce and Customer Management, Human Resource Management, Health Services Management, Public Administration, and Analytics (Business Analytics). You choose your option at Level 300, after the shared foundation in Levels 100 and 200.
+
+## Q: What can I major in at UGBS?
+A: At UGBS you can major in one of nine BSc Administration options: Accounting, Banking and Finance, Insurance, Marketing, E-Commerce and Customer Management, Human Resource Management, Health Services Management, Public Administration, and Analytics (Business Analytics). You choose your major at Level 300, after the shared foundation in Levels 100 and 200.
+
+## Q: What programmes can I choose at UGBS?
+A: UGBS offers nine BSc Administration programme options (majors): Accounting, Banking and Finance, Insurance, Marketing, E-Commerce and Customer Management, Human Resource Management, Health Services Management, Public Administration, and Analytics (Business Analytics). UGBS also runs a two-year Diploma in Accounting, a Diploma in Business Administration, and a Diploma in Public Administration.
+
+## Q: What are my major options at UGBS?
+A: Your major options at UGBS are: Accounting, Banking and Finance, Insurance, Marketing, E-Commerce and Customer Management, Human Resource Management, Health Services Management, Public Administration, and Analytics (Business Analytics). These are chosen at Level 300.
+
+## Q: What courses can I major in at the business school?
+A: At the business school (UGBS), you major in one of nine options under the BSc Administration degree: Accounting, Banking and Finance, Insurance, Marketing, E-Commerce and Customer Management, Human Resource Management, Health Services Management, Public Administration, and Analytics (Business Analytics).
