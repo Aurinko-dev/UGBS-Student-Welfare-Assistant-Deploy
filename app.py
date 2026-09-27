@@ -77,7 +77,7 @@ with st.sidebar:
 
     # 4. Chat-only action (visible, named button).
     if nav.title == ui_page.title:
-        st.button("ðŸ—‘ï¸  Clear chat history", key="clear_chat", on_click=_clear_chat,
+        st.button("Clear chat history", key="clear_chat", on_click=_clear_chat,
                   **wide(st.button))
 
     # 5. Settings, last.
