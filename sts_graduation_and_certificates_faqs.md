@@ -61,3 +61,16 @@ A: The University issues certificates once per graduating student. If a certific
 
 ### Q: How can I get my transcript and certified copies of my certificate?
 A: They are issued at the Academic Affairs Directorate on payment of the appropriate fees.
+
+## Q: Where can I view my transcript online?
+A: Log into MIS Web at https://mis.ug.edu.gh to access your academic transcript, results, and student record. You will need your Student ID and MIS PIN to log in. You can also access transcript requests through the STS portal at https://sts.ug.edu.gh.
+
+## Q: What is DiGradSys and how do I use it?
+A: DiGradSys is the University of Ghana's digital graduation system. Use it to:
+1. Check if your name is on the graduation list: https://sts.ug.edu.gh/services/graduation/search
+2. Register for congregation: https://sts.ug.edu.gh/services/graduation/login (requires Student ID and MIS PIN)
+3. Check your graduation status and outstanding requirements: https://graduation.ug.edu.gh/uggraduation/
+Clear all financial obligations before registering. Congregation fees are GHS 540.00, payable at the Students Accounts Office in the Jones-Quartey Building (JQB).
+
+## Q: Where is the Students Accounts Office?
+A: The Students Accounts Office is in the Jones-Quartey Building (JQB), ground floor, Main Campus. Go here for fee payments, student account issues, refunds, and fee balances. Email: studentsaccounts@ug.edu.gh. Payment hours: 9:00am - 4:00pm.
