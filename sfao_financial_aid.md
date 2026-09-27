@@ -183,3 +183,28 @@ A: General SFAO eligibility requires the applicant to be a Ghanaian citizen. If 
 - The work study and payment arrangement sections are deliberately thin, because the SFAO website does not publish detail beyond confirming they exist. Do not let the chatbot invent instalment numbers or job listings, since the project brief specifically warns against unsupported or fabricated financial information for this scenario. The honest, grounded answer here is a strength for your evaluation section, not a gap to hide.
 - Deadlines shown are for the 2026/2027 cycle and will change every year, so if this file is reused beyond the current demonstration, the dates need updating from the live site.
 - Two SFAO Financial Aid Office branding/location styles seem to exist. Confirm with SFAO or a student who has visited which is currently accurate before printing final location details in the report.
+
+## Q: Where can I find the current fee schedule?
+A: The official fee schedule is published by the Academic Affairs Directorate (AAD) each academic year. For the 2025/2026 academic year, the UGBS Masters programme fees are listed at https://ugbs.ug.edu.gh/ugbs-masters-programme-fees. For undergraduate fees, visit https://www.ug.edu.gh/aad/fees or check the STS portal at https://sts.ug.edu.gh. Fees change each academic year — always check the official AAD page or your admission letter for the current figures rather than relying on figures quoted elsewhere.
+
+## Q: What are the approximate UGBS Masters fees for Ghanaian students?
+A: Based on the 2025/2026 fee schedule published on the UGBS website:
+- MSc programmes (Sandwich): approximately GHS 11,624 per semester / GHS 23,248 per year
+- MSc programmes (Weekend, Year One): approximately GHS 16,254.50 per semester / GHS 32,509 total
+- MA programmes (Weekend, Year One): approximately GHS 13,298.50 per semester / GHS 26,597 total
+- EMBA (Year One): approximately GHS 12,061.50 per semester / GHS 24,123 total
+These are provisional figures for 2025/2026. For 2026/2027 fees, check https://ugbs.ug.edu.gh/ugbs-masters-programme-fees or contact SFAO at finaid@ug.edu.gh.
+
+## Q: What are the UGBS Masters fees for international students?
+A: Based on the 2025/2026 fee schedule:
+- African international students: USD 3,713.50 per semester / USD 7,427 per year
+- Non-African international students: USD 4,577.50 per semester / USD 9,155 per year
+Confirm current figures at https://ugbs.ug.edu.gh/ugbs-masters-programme-fees.
+
+## Q: I cannot find the 2026/2027 fee schedule — where do I look?
+A: The 2026/2027 fee schedule is typically released by AAD before the start of the academic year. Check:
+1. https://www.ug.edu.gh/aad/fees — AAD official fees page
+2. https://ugbs.ug.edu.gh — UGBS homepage (Academics menu)
+3. Your admission letter — fees are stated there for your specific programme
+4. STS portal at https://sts.ug.edu.gh under your student account
+If you still cannot find it, contact AAD at aad@ug.edu.gh or SFAO at finaid@ug.edu.gh.
