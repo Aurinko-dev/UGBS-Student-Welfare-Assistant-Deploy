@@ -158,3 +158,34 @@ A: Write a letter to the Academic Office (COE) through your current Learning Cen
 
 ### Q: How do I register and pay for my re-sit?
 A: Register failed courses using UGPay. Download the re-sit registration and payment manual from the page, then start the re-sit registration online.
+
+## Q: How do I calculate my GPA at the University of Ghana?
+A: UG uses a 4.0 grade point scale. To calculate your semester GPA:
+
+**Step 1 — Know the grading scale:**
+| Grade | Mark (%) | Grade Point |
+|---|---|---|
+| A | 80-100 | 4.0 |
+| B+ | 75-79 | 3.5 |
+| B | 70-74 | 3.0 |
+| C+ | 65-69 | 2.5 |
+| C | 60-64 | 2.0 |
+| D+ | 55-59 | 1.5 |
+| D | 50-54 | 1.0 |
+| E | 45-49 | 0.5 |
+| F | 0-44 | 0.0 |
+
+**Step 2 — Calculate Grade Points (GPT) per course:**
+Multiply each course's credit hours by its grade point value.
+Example: B+ (3.5) in a 3-credit course = 3.5 x 3 = 10.5 GPT
+
+**Step 3 — Sum all GPTs and divide by total credit hours:**
+Semester GPA = Total GPT / Total Credit Hours
+
+**CGPA vs FGPA:**
+- CGPA (Cumulative GPA): Overall average across all semesters — sum of all GPTs divided by total credit hours taken so far
+- FGPA (Final GPA): Determines your degree class. UG weights levels differently — Level 100 (weight 1), Level 200 (weight 1), Level 300 (weight 2), Level 400 (weight 2)
+
+For a visual walkthrough, watch this tutorial: https://www.youtube.com/results?search_query=university+of+ghana+GPA+calculation
+
+For your exact GPA, log into the STS portal at https://sts.ug.edu.gh — your transcript shows your current CGPA.
