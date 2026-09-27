@@ -58,3 +58,13 @@ A: The relevant Statutes are:
 - Statute 77: Amnesty
 - Statute 78: The University of Ghana Appeals Board
 - Statute 79: Exhaustion of Internal Remedies
+
+
+## Q: How do I apply for amnesty at the University of Ghana?
+A: Amnesty windows are advertised by the University on the official website (ug.edu.gh). When an amnesty is active, students with outstanding disciplinary matters, unpaid fees, or registration issues can regularise their status during that window. To apply:
+1. Check ug.edu.gh or your college notice board for the current amnesty advert
+2. Follow the instructions in the advert exactly
+3. Contact the Academic Affairs Directorate (AAD) at aad@ug.edu.gh or Room D10, Left Wing of the Registry, for guidance on your specific situation
+4. If the amnesty relates to registration, contact your College Academic Office
+
+The BHJCR and SRC are student governance bodies — they do not process university amnesty applications. Go directly to AAD or your College Academic Office.
