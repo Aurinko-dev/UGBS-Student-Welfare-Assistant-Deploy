@@ -82,3 +82,9 @@ For very large classes, the lecturer may propose an alternative venue on the wid
 
 ## Q: Where do Level 100 students have lectures at UGBS?
 A: Level 100 students typically have lectures in the UGBS building halls — G1, G2, G3, A1, A2, B1, B2. For very large introductory courses, lectures may be held in bigger campus venues like the JQB lecture halls or main campus blocks. Check your timetable on SAKAI or the departmental notice board.
+
+## Q: Where do Level 100 students have lectures?
+A: Level 100 lectures at UGBS are mainly held at the Business School's lecture halls: G1, G2, G3, A1, A2, B1, and B2. These are the main venues for all levels, not just Level 100. If a class size is too large for the assigned hall, the lecturer may arrange an alternative venue or hold the class online instead.
+
+## Q: Which lecture halls does UGBS use?
+A: UGBS lectures are mainly held in G1, G2, G3, A1, A2, B1, and B2 at the Business School. For very large classes, an alternative venue may be assigned, or the lecture may be held online.
