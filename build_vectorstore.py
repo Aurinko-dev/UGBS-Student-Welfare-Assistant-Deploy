@@ -1,5 +1,9 @@
 ﻿"""
 Builds the ChromaDB vector store from the markdown knowledge base.
+
+Uses langchain_chroma.Chroma (not langchain_community.vectorstores.Chroma)
+so the build side stays in sync with the read side in
+views/user_interface.py, which also uses langchain_chroma.Chroma.
 """
 import os
 import shutil
@@ -75,7 +79,7 @@ def chunk_documents(documents):
 def build_and_save_vectorstore(chunks):
     print("Generating free local embeddings and saving to ChromaDB...")
     if os.path.exists(DB_DIR):
-        print(f"Removing existing vector store at '"'"'{DB_DIR}'"'"' before rebuilding...")
+        print(f"Removing existing vector store at '{DB_DIR}' before rebuilding...")
         for attempt in range(5):
             try:
                 shutil.rmtree(DB_DIR)
@@ -83,10 +87,10 @@ def build_and_save_vectorstore(chunks):
             except PermissionError:
                 if attempt == 4:
                     sys.exit(
-                        f"\nCould not delete '"'"'{DB_DIR}'"'"' -- it'"'"'s locked by another "
+                        f"\nCould not delete '{DB_DIR}' -- it's locked by another "
                         "process.\nClose any other terminal or Streamlit app that "
                         "has this project open, then run this script again.\n"
-                        f"If that doesn'"'"'t help, delete the '"'"'{DB_DIR}'"'"' folder by "
+                        f"If that doesn't help, delete the '{DB_DIR}' folder by "
                         "hand (File Explorer or `Remove-Item -Recurse -Force "
                         f"{DB_DIR}`) and re-run."
                     )
@@ -98,7 +102,7 @@ def build_and_save_vectorstore(chunks):
         embedding=embeddings,
         persist_directory=DB_DIR,
     )
-    print(f"Successfully saved vector DB to '"'"'{DB_DIR}'"'"'!")
+    print(f"Successfully saved vector DB to '{DB_DIR}'!")
     return vectorstore
 
 
