@@ -78,3 +78,30 @@ A: Yes. Use the UGPay Portal at https://sts.ug.edu.gh/ugpay. Accepted payment me
 
 ## Q: How much of my fees must I pay before registering?
 A: Pay at least 50% of your fees before registering for the first semester. Full payment (100%) is required before the second semester registration.
+
+
+## Q: Which banks can I use to pay my UG fees?
+A: You can pay at any of these approved banks nationwide:
+- Universal Merchant Bank (UMB)
+- Ecobank Ghana Limited
+- Absa Bank Ghana Limited
+- Consolidated Bank Ghana (CBG)
+- Guaranty Trust Bank (GTBank)
+- Republic Bank Ghana Limited
+- Standard Chartered Bank
+- Access Bank
+- Stanbic Bank Ghana Limited
+- Prudential Bank
+- GCB Bank
+- Zenith Bank Ghana
+- Fidelity Bank
+- OmniBSIC Bank
+
+When paying at a bank, use a fee deposit slip and quote your Student Index Number and Full Name accurately. Keep your receipt.
+
+## Q: How do I pay my fees online?
+A: Use the UGPay Portal at https://sts.ug.edu.gh/ugpay. Accepted payment methods:
+- Visa and Mastercard
+- Mobile Money (MTN, Vodafone/Telecel, AirtelTigo)
+
+Pay at least 50% before first semester registration and 100% before second semester registration.

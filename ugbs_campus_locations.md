@@ -71,3 +71,14 @@ A: The K.E. Adjei Library is inside the UGBS building complex. It holds business
 
 ## Q: Where do I pay my fees?
 A: Fees can be paid at the Students Accounts Office (JQB Building, Ground Floor) or online via the UG Payments Portal on STS (https://sts.ug.edu.gh). Designated banks on and off campus also accept payments. Keep your receipt and allow 48 hours for your account to be cleared before registering.
+
+
+## Q: Where do UGBS students have their lectures?
+A: Lectures at UGBS are held in the Business School lecture halls and rooms. The main venues are:
+- G1, G2, G3 — Ground floor lecture halls in the UGBS building
+- A1, A2 — First floor lecture rooms
+- B1, B2 — Additional lecture rooms in the UGBS building
+For very large classes, the lecturer may propose an alternative venue on the wider UG campus or move the class online. Always check SAKAI or the departmental notice board for your confirmed venue.
+
+## Q: Where do Level 100 students have lectures at UGBS?
+A: Level 100 students typically have lectures in the UGBS building halls — G1, G2, G3, A1, A2, B1, B2. For very large introductory courses, lectures may be held in bigger campus venues like the JQB lecture halls or main campus blocks. Check your timetable on SAKAI or the departmental notice board.
