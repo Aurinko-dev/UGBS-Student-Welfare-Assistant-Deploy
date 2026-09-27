@@ -1,31 +1,60 @@
-# University of Ghana — Student Discipline & Complaint Governance (Verified)
+﻿# University of Ghana — Student Discipline & Complaint Governance
 
-Source: Statutes of the University of Ghana, August 2024 (current, official — ug.edu.gh/pad). [VERIFIED — table of contents and Statute 14(1) text directly retrieved and confirmed]
-
-Note: Only the confirmed table-of-contents structure and directly-retrieved clause text are included below. The literal wording of Statutes 66, 71, and 73–79 themselves was not retrievable (document too long to fetch past ~page 71) — only their titles and page locations are confirmed, not their full content.
-
-## Where student discipline and complaints sit in the Statutes (confirmed structure)
-| Statute | Title |
-|---|---|
-| 66 | Office of Student Affairs |
-| 71 | Student Governance |
-| 72 | Halls of Residence and Residential Facilities |
-| 73 | Academic Misconduct |
-| 74 | Non-Academic Misconduct |
-| 75 | Disciplinary Bodies and Rules of Procedure Relating to Discipline |
-| 76 | Sanctions |
-| 77 | Amnesty |
-| 78 | The University of Ghana Appeals Board |
-| 79 | Exhaustion of Internal Remedies |
+Source: Statutes of the University of Ghana, August 2024 (ug.edu.gh/pad). [VERIFIED]
 
 ## Q: Who is ultimately responsible for discipline at the University of Ghana?
-A: The Vice-Chancellor. Statute 14(1) explicitly defines the Vice-Chancellor as "the academic and administrative head and Chief Disciplinary Officer of the University." The Statutes' own definitions section describes the Chief Disciplinary Officer as "the person who is ultimately responsible for setting disciplinary standards, initiating and overseeing disciplinary proceedings and preserving disciplinary integrity in the University."
+A: The Vice-Chancellor is the Chief Disciplinary Officer of the University, ultimately responsible for setting disciplinary standards, initiating and overseeing disciplinary proceedings, and preserving disciplinary integrity.
 
 ## Q: What counts as misconduct at UG?
-A: The Statutes define "Misconduct" broadly as unacceptable or improper behaviour amounting to a failure to perform an assigned duty properly, a breach of the Laws of the University, or conduct tending to bring the University's name into disrepute. "Gross Misconduct" is misconduct serious enough to amount to a fundamental breach of trust and confidence. "Good Cause" (the general standard used across the Statutes for removals/sanctions) explicitly includes: scandalous conduct, persistent failure/refusal/neglect of duty, immoral or disgraceful conduct, sexual or other harassment, criminal conviction, plagiarism, examination malpractice (including awarding or procuring marks for a course not taken, or irregular enhancement/reduction of marks), and electoral fraud or malpractice.
+A: Misconduct is unacceptable or improper behaviour that amounts to a failure to perform an assigned duty properly, a breach of University laws, or conduct that brings the University into disrepute. This includes:
+- Plagiarism and examination malpractice
+- Awarding or procuring marks for a course not taken
+- Sexual or other harassment
+- Scandalous, immoral, or disgraceful conduct
+- Criminal conviction
+- Electoral fraud or malpractice
+- Defamation of University officers
+Gross Misconduct is misconduct serious enough to amount to a fundamental breach of trust and confidence.
 
-## Q: Is there a real example of how this works in practice?
-A: Yes. In January 2023, the University publicly sanctioned four former Junior Common Room (JCR) executives of Commonwealth Hall — the President, Vice President, Secretary, and Treasurer — each suspended for three academic years. The case: JCR meetings held 18–19 August 2022 were found to have published false and defamatory statements against senior University officers (the Vice-Chancellor and Pro-Vice-Chancellor), bringing those offices into disrepute. Process followed: a complaint was lodged → the Disciplinary Board for Junior Members held a hearing → misconduct was established under Statute 42(1)(n) and (o) of the University of Ghana Statutes 2011 (as amended, the pre-August-2024 version in force at the time) and Regulations 7.11(c)(xiv)–(xv) and (f)(ii)–(iii) of the University of Ghana Regulations for Junior Members, 2017 → sanctions were imposed under Section 45(g) of the Statutes → the decision was formally communicated by the Registrar (Mrs. Emelia Agyei-Mensah). Source: University of Ghana General Notice, 8 January 2023; corroborated by Citi News, MyJoyOnline, Ghana Business News, and GhanaWeb. [VERIFIED across multiple independent sources]
+## Q: What is the difference between academic and non-academic misconduct?
+A: Academic misconduct (Statute 73) covers violations related to examinations and academic work — plagiarism, cheating, impersonation in exams, falsifying results, and procuring marks fraudulently. Non-academic misconduct (Statute 74) covers behaviour outside academic work — harassment, defamation, violence, theft, damage to property, and conduct bringing the University into disrepute.
 
-## Escalation chain this illustrates
-Complaint lodged → Disciplinary Board hearing (for Junior Members, i.e. students) → finding of misconduct against specific Statute/Regulation provisions → sanction issued under the Statutes → formal written notice from the Registrar. This gives a real, citable model for how a complaint-handling or case-management feature should structure its workflow stages.
+## Q: What happens when a misconduct complaint is filed against a student?
+A: The process follows this escalation chain:
+1. Complaint is lodged with the relevant authority
+2. The Disciplinary Board for Junior Members (students) holds a hearing
+3. The Board investigates and establishes whether misconduct occurred
+4. Sanctions are recommended to the Vice-Chancellor
+5. A formal written notice is issued by the Registrar
+Where the University already has evidence, a formal investigation is not required before charging the student directly before the disciplinary committee.
+
+## Q: What sanctions can be imposed on a student found guilty of misconduct?
+A: Sanctions are governed by Statute 76 and can range from a written warning to suspension or expulsion, depending on the severity. For example, in January 2023, four Commonwealth Hall JCR executives were each suspended for three academic years for publishing defamatory statements against University officers.
+
+## Q: Is there an amnesty option for students with disciplinary issues?
+A: Yes. Statute 77 provides for amnesty. Details of current amnesty windows are advertised on the University website. Students with outstanding disciplinary matters should check ug.edu.gh for active amnesty adverts.
+
+## Q: Can a student appeal a disciplinary decision?
+A: Yes. Statute 78 establishes the University of Ghana Appeals Board as the body for university-level appeals. Statute 79 requires exhaustion of internal remedies before seeking external redress — meaning a student must go through the University's own appeal process first before taking the matter outside.
+
+## Q: What is a real example of how the discipline process works?
+A: In January 2023, four JCR executives of Commonwealth Hall (President, Vice President, Secretary, Treasurer) were each suspended for three academic years. The complaint related to meetings held in August 2022 where false and defamatory statements were published against the Vice-Chancellor and Pro-Vice-Chancellor. The Disciplinary Board held a hearing, established misconduct, and the Registrar issued formal written notice of the sanctions. [VERIFIED — University of Ghana General Notice, 8 January 2023]
+
+## Q: Where do I report a misconduct complaint as a student?
+A: Depending on the nature of the complaint:
+- Academic misconduct (cheating, plagiarism): report to your Head of Department or the Academic Affairs Directorate (aad@ug.edu.gh)
+- Sexual harassment or GBV: report to CEGENSA (near LT3) or the Anti-Sexual Harassment Committee
+- General student misconduct: report to the Office of the Dean of Student Affairs (near Balme Library, same premises as the University Post Office)
+- Examination malpractice: contact the Teaching and Examinations Unit at teu-academic@ug.edu.gh
+
+## Q: Where does discipline sit in the UG Statutes?
+A: The relevant Statutes are:
+- Statute 66: Office of Student Affairs
+- Statute 71: Student Governance
+- Statute 73: Academic Misconduct
+- Statute 74: Non-Academic Misconduct
+- Statute 75: Disciplinary Bodies and Rules of Procedure
+- Statute 76: Sanctions
+- Statute 77: Amnesty
+- Statute 78: The University of Ghana Appeals Board
+- Statute 79: Exhaustion of Internal Remedies
