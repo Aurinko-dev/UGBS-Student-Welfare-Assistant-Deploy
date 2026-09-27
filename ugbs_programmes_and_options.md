@@ -73,3 +73,9 @@ Think about three questions: what kind of work you enjoy day to day, how comfort
 ## Sources and how current this information is
 
 The option list comes from the UGBS undergraduate programme pages (ugbs.ug.edu.gh) and a 2026/2027 programme summary. Course descriptions come from the University of Ghana 2017 undergraduate handbook (Humanities volume, Business School section), so course titles may have changed. Entry requirements and grade thresholds for options are not stated here.
+
+## Q: Which level do I choose my major or option at UGBS?
+A: At UGBS, all BSc Administration students choose their major (option) at Level 300. Levels 100 and 200 cover common core business courses taken by all students regardless of option. At Level 300, you declare your option — such as Accounting, Finance, Marketing, Human Resource Management, Analytics, Public Administration, or Health Services Management — and your courses become option-specific from that point.
+
+## Q: Can I change my option after choosing at Level 300?
+A: A change of option is treated as a change of programme and requires approval from the Academic Affairs Directorate. Contact your department office or the UGBS Undergraduate Academic Office first to understand whether the switch is feasible given your credit history.
