@@ -1,1 +1,3 @@
-﻿*.py text eol=lf
+﻿ugbs_welfare_db/** -text
+*.bin -text
+*.sqlite3 -text
