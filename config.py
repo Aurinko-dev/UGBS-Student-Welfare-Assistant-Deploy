@@ -1,4 +1,4 @@
-﻿"""
+"""
 Central configuration for the UGBS Student Welfare Assistant.
 
 All secrets are read from environment variables (or a local .env file via
@@ -26,7 +26,7 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = "models/gemini-3.8-flash"
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
