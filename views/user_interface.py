@@ -150,12 +150,61 @@ if not _os.path.exists(config.DB_DIR):
     _bvs.build_and_save_vectorstore(_bvs.chunk_documents(_bvs.load_md_documents()))
 
 
+def _db_fingerprint_now():
+    """Changes whenever the committed vector-DB files change (new commit or
+    rebuild): built from every file's relative path + size. The segment folder
+    is named by a fresh UUID on each rebuild, so the fingerprint changes too."""
+    parts = []
+    for root, _dirs, files in os.walk(config.DB_DIR):
+        for f in files:
+            p = os.path.join(root, f)
+            try:
+                parts.append(f"{os.path.relpath(p, config.DB_DIR)}:{os.path.getsize(p)}")
+            except OSError:
+                pass
+    return "|".join(sorted(parts))
+
+
 @st.cache_resource(show_spinner=False)
-def load_vectorstore():
+def load_vectorstore(db_fingerprint=None):
+    # IMPORTANT: no leading underscore on db_fingerprint. Streamlit does NOT
+    # hash underscore-prefixed arguments, which would make the cache key
+    # constant and the cache-busting a no-op.
     embeddings = neural_classifier.get_embedder()
     if not os.path.exists(config.DB_DIR):
         return None
     return Chroma(persist_directory=config.DB_DIR, embedding_function=embeddings)
+
+
+@st.cache_resource(show_spinner=False)
+def _build_memory_vectorstore():
+    """Last resort if the committed DB can't be used: index the markdown
+    knowledge base in memory (slow on the first question only)."""
+    import build_vectorstore
+    docs = build_vectorstore.load_md_documents()
+    chunks = build_vectorstore.chunk_documents(docs)
+    return Chroma.from_documents(documents=chunks, embedding=neural_classifier.get_embedder())
+
+
+def _search_with_recovery(vs, query, k=3):
+    """Search, and if the cached Chroma client is stale/broken: clear caches,
+    reopen the on-disk DB and retry; if that also fails, use an in-memory index."""
+    try:
+        return vs.similarity_search_with_score(query, k=k)
+    except Exception as first_err:
+        print(f"[user_interface] vector search failed ({type(first_err).__name__}: {first_err}); reloading DB")
+    try:
+        load_vectorstore.clear()
+        try:
+            from chromadb.api.shared_system_client import SharedSystemClient
+            SharedSystemClient.clear_system_cache()
+        except Exception as e:
+            print(f"[user_interface] could not clear chroma system cache: {e}")
+        fresh = load_vectorstore(_db_fingerprint_now())
+        return fresh.similarity_search_with_score(query, k=k)
+    except Exception as second_err:
+        print(f"[user_interface] reload failed ({type(second_err).__name__}: {second_err}); using in-memory index")
+    return _build_memory_vectorstore().similarity_search_with_score(query, k=k)
 
 
 def severity_badge(severity: str) -> str:
@@ -310,7 +359,8 @@ if active_topic:
                     program_guidance.render("all")
 
 
-vectorstore = load_vectorstore()
+_db_fingerprint = _db_fingerprint_now() if os.path.exists(config.DB_DIR) else None
+vectorstore = load_vectorstore(_db_fingerprint)
 if vectorstore is None:
     st.error("Local database `ugbs_welfare_db` not found. Please run `python build_vectorstore.py` first.")
     st.stop()
@@ -542,7 +592,7 @@ if user_query:
             st.stop()
 
         with st.spinner("Searching official welfare policy documents..."):
-            results = vectorstore.similarity_search_with_score(normalized_query, k=3)
+            results = _search_with_recovery(vectorstore, normalized_query, k=3)
 
         _retrieval_cutoff = st.session_state.get("tuning_retrieval_cutoff", CONFIDENCE_THRESHOLD)
         if not results or results[0][1] > _retrieval_cutoff:
