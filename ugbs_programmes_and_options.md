@@ -81,9 +81,6 @@ A: At UGBS, all BSc Administration students choose their major (option) at Level
 A: A change of option is treated as a change of programme and requires approval from the Academic Affairs Directorate. Contact your department office or the UGBS Undergraduate Academic Office first to understand whether the switch is feasible given your credit history.
 
 
-## Q: Which level do I choose my major or option at UGBS?
-A: At UGBS, all BSc Administration students choose their major (option) at Level 300. Levels 100 and 200 cover common core business courses shared by all students. At Level 300 you declare your option — Accounting, Finance, Marketing, Human Resource Management, Analytics, Public Administration, or Health Services Management.
-
 ## Q: Which level do I major at the business school?
 A: You major at Level 300. Before that, Level 100 and Level 200 are common to all BSc Administration students.
 

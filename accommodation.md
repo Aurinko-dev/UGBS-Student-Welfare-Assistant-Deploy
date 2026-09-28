@@ -57,41 +57,28 @@ A: University of Ghana accommodation falls into three categories:
 3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
 
 ## Q: How many halls are there?
+A: University of Ghana accommodation falls into three main categories -- "halls" and "hostels" are used interchangeably for these:
+
+1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
+2. **UGEL Hostels** (also called "Diaspora" halls): Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson -- more modern halls with amenities like internet access and laundry facilities.
+3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Bani Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
+
+Which type would you like to know more about?
+
 ## Q: How many hostels are there on campus?
+A: University of Ghana accommodation falls into three main categories -- "halls" and "hostels" are used interchangeably for these:
+
+1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
+2. **UGEL Hostels** (also called "Diaspora" halls): Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson -- more modern halls with amenities like internet access and laundry facilities.
+3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Bani Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
+
+Which type would you like to know more about?
+
 ## Q: What types of accommodation/halls/hostels does UG have?
 A: University of Ghana accommodation falls into three main categories -- "halls" and "hostels" are used interchangeably for these:
 
 1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
 2. **UGEL Hostels** (also called "Diaspora" halls): Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson -- more modern halls with amenities like internet access and laundry facilities.
-3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Bani Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
-
-Which type would you like to know more about?
-
-## Q: How many halls are there?
-## Q: How many hostels are there on campus?
-## Q: What types of accommodation/halls/hostels does UG have?
-A: University of Ghana accommodation falls into three main categories -- "halls" and "hostels" are used interchangeably for these:
-
-1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
-2. **UGEL Hostels** (also called "Diaspora" halls): Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson -- more modern halls with amenities like internet access and laundry facilities.
-3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Bani Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
-
-Which type would you like to know more about?
-
-## Q: How many hostels are there on campus?
-A: University of Ghana accommodation falls into three main categories -- "halls" and "hostels" are used interchangeably for these:
-
-1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
-2. **UGEL Hostels** (also called "Diaspora" halls): Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson -- more modern halls with amenities like internet access and laundry facilities.
-3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Bani Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
-
-Which type would you like to know more about?
-
-## Q: How many halls are there?
-A: University of Ghana accommodation falls into three main categories -- "halls" and "hostels" are used interchangeably for these:
-
-1. **Traditional Halls:** Akuafo, Legon, Volta, Commonwealth, and Mensah Sarbah.
-2. **UGEL Hostels** (also called "Diaspora" halls): Hilla Limann, Kwapong, Elizabeth Sey, and Jean Nelson.
 3. **Private and Partnership Hostels:** Pentagon Hostels (Blocks A, B, C), Evandy Hostel, Vikings Hostel, Bani Hostel, Jubilee Hall, International Student Hostel (ISH), and Legon Hall Annex C (postgraduate only).
 
 Which type would you like to know more about?

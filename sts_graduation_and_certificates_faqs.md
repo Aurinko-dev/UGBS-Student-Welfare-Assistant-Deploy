@@ -75,23 +75,8 @@ Clear all financial obligations before registering. Congregation fees are GHS 54
 ## Q: Where is the Students Accounts Office?
 A: The Students Accounts Office is in the Jones-Quartey Building (JQB), ground floor, Main Campus. Go here for fee payments, student account issues, refunds, and fee balances. Email: studentsaccounts@ug.edu.gh. Payment hours: 9:00am - 4:00pm.
 
-## Q: What is DiGradSys?
-A: DiGradSys (UG-DiGradSys) is the University of Ghana's official portal for graduation requirements, clearance, and exam timetables/attendance (DAMS - Timetable and Attendance module). Students sign in using their UG credentials.
-
 ## Q: How do I access my exam timetable on DiGradSys?
 A: 1. Open the DiGradSys portal using Safari or Chrome. 2. Log in with your student email (use your Student ID as the password if this is your first login). 3. Once logged in, go to: Timetable → Exam Timetable → Display Exam Timetable.
-
-## Q: Where do I check my graduation requirements and clearance status?
-A: This is done through DiGradSys, which tracks academic records against graduation requirements and manages final clearance for students joining the congregation (graduation) ceremony.
-
-## Q: What is DiGradSys?
-A: DiGradSys (UG-DiGradSys) is the University of Ghana's official portal for graduation requirements, clearance, and exam timetables/attendance (DAMS - Timetable and Attendance module). Students sign in using their UG credentials.
-
-## Q: How do I access my exam timetable on DiGradSys?
-A: 1. Open the DiGradSys portal using Safari or Chrome. 2. Log in with your student email (use your Student ID as the password if this is your first login). 3. Once logged in, go to: Timetable → Exam Timetable → Display Exam Timetable.
-
-## Q: Where do I check my graduation requirements and clearance status?
-A: This is done through DiGradSys, which tracks academic records against graduation requirements and manages final clearance for students joining the congregation (graduation) ceremony.
 
 ## Q: What is DiGradSys?
 A: DiGradSys (UG-DiGradSys) is the University of Ghana's official digitized academic and graduation portal. It handles exam timetables, seat allocations and venues, graduation eligibility and clearance tracking, and attendance records. It is used across the University, including by UGBS students.
@@ -99,20 +84,6 @@ A: DiGradSys (UG-DiGradSys) is the University of Ghana's official digitized acad
 ## Q: How do I log in to DiGradSys?
 A: 1. Go to the official UG-DiGradSys login page. 2. Enter your full UG student email as the username (e.g., username@st.ug.edu.gh). 3. Enter your Student ID number as the password. 4. Alternatively, use the "Login with UG Mail" or "Login with Microsoft" button to sign in with your standard university email credentials.
 
-## Q: How do I access my exam timetable on DiGradSys?
-A: Log in to DiGradSys, then go to: Timetable → Exam Timetable → Display Exam Timetable.
-
 ## Q: Where do I check my graduation requirements and clearance status?
 A: This is done through DiGradSys, which evaluates your academic record against graduation requirements and manages the clearance process needed to join the congregation (graduation) ceremony.
 
-## Q: What is DiGradSys?
-A: DiGradSys (UG-DiGradSys) is the University of Ghana's official digitized academic and graduation portal. It handles exam timetables, seat allocations and venues, graduation eligibility and clearance tracking, and attendance records. It is used across the University, including by UGBS students.
-
-## Q: How do I log in to DiGradSys?
-A: 1. Go to the official UG-DiGradSys login page. 2. Enter your full UG student email as the username (e.g., username@st.ug.edu.gh). 3. Enter your Student ID number as the password. 4. Alternatively, use the "Login with UG Mail" or "Login with Microsoft" button to sign in with your standard university email credentials.
-
-## Q: How do I access my exam timetable on DiGradSys?
-A: Log in to DiGradSys, then go to: Timetable → Exam Timetable → Display Exam Timetable.
-
-## Q: Where do I check my graduation requirements and clearance status?
-A: This is done through DiGradSys, which evaluates your academic record against graduation requirements and manages the clearance process needed to join the congregation (graduation) ceremony.

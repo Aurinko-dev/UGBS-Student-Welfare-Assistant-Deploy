@@ -91,25 +91,9 @@ def _call_llm(prompt: str) -> str:
 
 
 def _strip_faq_formatting(content: str) -> str:
-    """The knowledge-base .md files are written as headed FAQ entries, e.g.:
-        ## Account and Access
-
-        ### Q: How do I reset my MIS Web password?
-        A: 1. Log in ...
-    That's the right format for a human skimming the source document, but
-    when a raw chunk is returned as-is to a student in chat (the no-LLM
-    fallback path), it reads like a database dump: a section heading, the
-    student's own question read back to them, then "A:" before the actual
-    answer. This strips both the leading heading(s) and the "Q: ... A:"
-    restatement, leaving just the answer content -- matching how the main
-    LLM path is instructed to answer (straight to the point, no
-    "Based on the document" framing, no repeated question).
-    """
-    # Repeatedly strip leading markdown heading lines ("## Account and
-    # Access") that are pure section titles -- noise here, since the
-    # category is already shown elsewhere in the chat UI. Stop as soon as a
-    # heading turns out to BE the "Q: ..." line itself, so the Q:/A: logic
-    # below still has it to work with.
+    """Strip leading section headings and any stacked "Q: ... A:" blocks so
+    only the answer text reaches the student (no-LLM fallback path)."""
+    # Strip leading pure-section headings; stop when a heading IS the Q: line.
     while True:
         match = re.match(r"^\s*#{1,6}\s*(.*)\n+", content)
         if not match:
@@ -117,13 +101,18 @@ def _strip_faq_formatting(content: str) -> str:
         if re.match(r"Q:\s*", match.group(1), flags=re.IGNORECASE):
             break
         content = content[match.end():]
-    # Strip a leading "Q: ...\nA: " question restatement, however it's
-    # capitalized/spaced, whether or not it's still wrapped in a markdown
-    # heading (e.g. "### Q: ...") -- the student already knows their own
-    # question.
-    match = re.match(r"\s*#{0,6}\s*Q:\s*.*?\n+A:\s*", content, flags=re.IGNORECASE | re.DOTALL)
-    if match:
-        content = content[match.end():]
+    # Looped, not one-shot: several "## Q:" headers can be stacked before one
+    # answer, so keep stripping Q:/A: blocks and bare Q: lines until none remain.
+    while True:
+        match = re.match(r"\s*#{0,6}\s*Q:\s*.*?\n+A:\s*", content, flags=re.IGNORECASE | re.DOTALL)
+        if match:
+            content = content[match.end():]
+            continue
+        match = re.match(r"\s*#{0,6}\s*Q:\s*.*?\n+", content, flags=re.IGNORECASE)
+        if match:
+            content = content[match.end():]
+            continue
+        break
     return content.strip()
 
 
