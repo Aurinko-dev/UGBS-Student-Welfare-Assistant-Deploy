@@ -20,16 +20,7 @@ OFFICE_MAP = {
     },
     "Accommodation": {
         "office": "Traditional Halls / UGEL Hostels Office / Private hostel management",
-        "note": "For ON-CAMPUS housing (Traditional Halls and UGEL Hostels), apply for "
-                "the annual Open Random Bed Allocation via the STS Portal "
-                "(https://sts.ug.edu.gh) after completing academic registration. "
-                "For OFF-CAMPUS housing, several private hostels operate around Legon "
-                "and are booked directly with the hostel, not through the STS Portal. "
-                "For a problem with a roommate or a hall/hostel facility issue once "
-                "you already have a room, contact your Hall Tutor/Warden (Traditional "
-                "Halls) or the hostel's own management office (UGEL Hostels and private "
-                "hostels), not the STS Portal -- the portal only handles getting a room "
-                "assigned, not problems once you have one.",
+        "note": "Handles room allocation, roommate issues, and hall/hostel facility matters.",
     },
     "Sexual Harassment / GBV": {
         "office": "CEGENSA (Centre for Gender Studies and Advocacy)",
