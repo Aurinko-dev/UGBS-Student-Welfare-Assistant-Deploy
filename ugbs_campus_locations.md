@@ -87,7 +87,7 @@ A: Level 100 students typically have lectures in the UGBS building halls — G1,
 A: Level 100 lectures at UGBS are mainly held at the Business School's lecture halls: G1, G2, G3, A1, A2, B1, and B2. These are the main venues for all levels, not just Level 100. If a class size is too large for the assigned hall, the lecturer may arrange an alternative venue or hold the class online instead.
 
 ## Q: Which lecture halls does UGBS use?
-A: UGBS lectures are mainly held in G1, G2, G3, A1, A2, B1, and B2 at the Business School. For very large classes, an alternative venue may be assigned, or the lecture may be held online.
+A: UGBS lectures are mainly held in G1, G2, G3, A1, A2, B1, and B2 at the Business School. UGBS also uses F4 and F5, located at the old graduate block. For very large classes, an alternative venue may be assigned, or the lecture may be held online.
 
 ## Q: Are there other lecture venues at UGBS besides G1-B2?
 A: Yes -- UGBS also has F4 and F5, located at the old graduate block at the Business School. These are used alongside the main venues (G1, G2, G3, A1, A2, B1, B2).
@@ -100,3 +100,4 @@ A: Yes -- UGBS also has F4 and F5, located at the old graduate block at the Busi
 
 ## Q: Where are F4 and F5?
 A: F4 and F5 are lecture rooms located at the old graduate block at the UGBS Business School.
+
