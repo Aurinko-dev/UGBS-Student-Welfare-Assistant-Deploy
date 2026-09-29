@@ -114,3 +114,14 @@ A: 1. **Talk to your roommate directly first.** Calmly explain the specific beha
 5. **For serious Code of Conduct violations or safety threats** not resolved at the hall level, the matter can be escalated to the **Dean of Student Affairs (DOSA).**
 
 Do not attempt to resolve a serious conflict by changing locks, forcing a roommate out, or swapping rooms without your Hall Secretariat's explicit permission -- this violates university residential regulations.
+
+## Q: What can I do about a problem with my roommate? (escalation steps)
+Note: this answer is not from the official Accommodation or Schedule of Fees pages -- it reflects general University practice for resolving roommate issues, in escalating order:
+
+A: 1. **Talk to your roommate directly first.** Calmly explain the specific behavior causing concern (noise, cleaning, visitors, study hours) and agree on ground rules -- many issues resolve this way without involving anyone else.
+2. **If that doesn't work, involve your Floor/Block Representative or Block Tutor/President** within your hall. They can host an informal mediation between both of you.
+3. **If the issue continues or is serious** (e.g. theft, harassment, physical altercation), lodge a formal complaint with your **Hall Assistant, Senior Tutor, or Hall Management Office.** This can lead to a formal hearing, an official warning, or a room transfer (subject to availability).
+4. **For emotional or interpersonal difficulties**, the Careers and Counselling Centre (CCC) near Balme Library offers confidential mediation support.
+5. **For serious Code of Conduct violations or safety threats** not resolved at the hall level, the matter can be escalated to the **Dean of Student Affairs (DOSA).**
+
+Do not attempt to resolve a serious conflict by changing locks, forcing a roommate out, or swapping rooms without your Hall Secretariat's explicit permission -- this violates university residential regulations.
