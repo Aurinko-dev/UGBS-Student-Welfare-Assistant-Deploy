@@ -1,9 +1,9 @@
 ﻿"""
 This is what separates an agent from a chatbot: after classifying the
-issue, the system doesn't just answer â€” it decides WHERE the student
+issue, the system doesn't just answer -- it decides WHERE the student
 should actually go and generates a concrete next-steps plan.
 
-The office mapping is deterministic (these are policy facts â€” the system
+The office mapping is deterministic (these are policy facts -- the system
 should never let an LLM guess which office handles what), while the
 step-by-step plan is generated per-query since it depends on what the
 student actually asked (llm_engine.generate_action_plan).
@@ -22,6 +22,15 @@ OFFICE_MAP = {
         "office": "Traditional Halls / UGEL Hostels Office / Private hostel management",
         "note": "Handles room allocation, roommate issues, and hall/hostel facility matters.",
     },
+    "Sexual Harassment / GBV": {
+        "office": "CEGENSA (Centre for Gender Studies and Advocacy)",
+        "note": "Handles sexual harassment and misconduct reports, both informal and "
+                "formal, and runs a dedicated crisis and counselling unit. "
+                "https://cegensa.ug.edu.gh -- the Careers and Counselling Directorate "
+                "is also available for confidential support alongside or instead of "
+                "a formal complaint.",
+    },
+    "Mental Health / Counselling": {
         "office": "University of Ghana Counselling and Placement Centre (UGCCD)",
         "note": "Handles counselling appointments and mental health support.",
     },
@@ -42,12 +51,6 @@ OFFICE_MAP = {
 }
 
 
-# Fallback used for any category with no specific office mapping above --
-# currently "Out of Scope" and any other value that is not a real category
-# (see llm_engine.classify_with_llm, which now falls back to "Out of Scope"
-# rather than the unmapped "Unclassified" it used to return). Without this,
-# get_recommended_office() returned None for those cases, and the student
-# got an answer with no office referral and no explanation of why.
 _DEFAULT = {
     "office": "UGBS Academic Office",
     "note": "General point of contact when the issue doesn't fit a specific "
