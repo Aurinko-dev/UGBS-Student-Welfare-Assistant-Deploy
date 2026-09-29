@@ -22,15 +22,6 @@ OFFICE_MAP = {
         "office": "Traditional Halls / UGEL Hostels Office / Private hostel management",
         "note": "Handles room allocation, roommate issues, and hall/hostel facility matters.",
     },
-    "Sexual Harassment / GBV": {
-        "office": "CEGENSA (Centre for Gender Studies and Advocacy)",
-        "note": "Handles sexual harassment and misconduct reports, both informal and "
-                "formal, and runs a dedicated crisis and counselling unit. "
-                "https://cegensa.ug.edu.gh â€” the Careers and Counselling Directorate "
-                "is also available for confidential support alongside or instead of "
-                "a formal complaint.",
-    },
-    "Mental Health / Counselling": {
         "office": "University of Ghana Counselling and Placement Centre (UGCCD)",
         "note": "Handles counselling appointments and mental health support.",
     },
