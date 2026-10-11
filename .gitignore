@@ -20,3 +20,4 @@ stage5_evaluation_output/
 
 diag.txt
 run_log.txt
+*.bak
