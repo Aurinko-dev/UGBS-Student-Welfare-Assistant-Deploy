@@ -1,4 +1,4 @@
-﻿"""
+"""
 Wraps whichever LLM provider is configured (Gemini or Anthropic) behind two
 functions the rest of the app calls:
 

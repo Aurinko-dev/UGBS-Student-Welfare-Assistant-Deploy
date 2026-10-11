@@ -1,4 +1,4 @@
-﻿"""User Interface: the student-facing chat (selected from the sidebar in app.py)."""
+"""User Interface: the student-facing chat (selected from the sidebar in app.py)."""
 import streamlit as st
 
 from logo import logo_html

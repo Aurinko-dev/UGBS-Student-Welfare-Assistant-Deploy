@@ -1,4 +1,4 @@
-﻿"""
+"""
 Builds the ChromaDB vector store from the markdown knowledge base.
 
 Uses langchain_chroma.Chroma (not langchain_community.vectorstores.Chroma)

@@ -1,0 +1,17 @@
+{
+  "categories": [
+    "Academic Distress",
+    "Accommodation",
+    "Career Guidance",
+    "Financial Distress",
+    "Mental Health / Counselling",
+    "Out of Scope",
+    "Sexual Harassment / GBV",
+    "Student Governance / JCR"
+  ],
+  "severities": [
+    "High",
+    "Low",
+    "Medium"
+  ]
+}

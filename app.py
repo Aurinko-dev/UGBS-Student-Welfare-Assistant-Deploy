@@ -1,4 +1,4 @@
-﻿"""
+"""
 Entry point:  streamlit run app.py
 
 This file is now only the ROUTER. It sets up the page, the shared styling and

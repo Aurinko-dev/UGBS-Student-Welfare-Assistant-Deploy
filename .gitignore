@@ -5,8 +5,6 @@ __pycache__/
 *.pyc
 
 # Generated data — not source
-models/*.pt
-models/*.json
 models/cv_predictions.csv
 welfare_analytics.sqlite3
 
@@ -20,3 +18,5 @@ stage5_evaluation_output/
 
 # Local secrets
 
+diag.txt
+run_log.txt
