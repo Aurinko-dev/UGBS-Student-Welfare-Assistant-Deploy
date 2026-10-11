@@ -137,8 +137,11 @@ Please reach out to a real person right now:
 
 - **University of Ghana Counselling and Placement Centre (UGCCD)** — go to the
   Centre in person if you can, or contact them directly.
+  Walk in Monday–Friday (behind the Department of Sociology, Legon),
+  call **020 499 9221** or **024 594 5752**, or email careers@ug.edu.gh.
 - **University of Ghana Medical Centre** — has an emergency department and is
   the fastest route if you or someone else is in immediate danger.
+  Phone: **030 255 0843**.
 - **A trusted friend, family member, or hall/hostel warden** — please tell
   someone near you what's going on right now.
 
