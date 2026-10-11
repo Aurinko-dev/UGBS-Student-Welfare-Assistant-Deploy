@@ -178,9 +178,12 @@ filler advice that isn't actually in the context (e.g. don't say "bring
 your ID" or "bring relevant documents" unless the context specifically
 says so). Format the answer in Markdown: one short lead-in sentence, then a numbered
 list (or bullets) for requirements, steps or documents, with key terms in
-**bold**. For eligibility questions, list the GENERAL requirements first,
-then mention specific schemes only if the context covers them. Use up to
-about 200 words, warm and practical. The context may contain internal
+**bold**. Put EVERY list item on its own line, with a blank line before and
+after the list, and never run items together inside a paragraph. For
+eligibility questions, first list ALL the general requirements the context
+states (for example citizenship, student status and financial need) as
+separate numbered items, then add a second list for specific schemes only
+if the context covers them. Use up to about 220 words, warm and practical. The context may contain internal
 sourcing labels like "[VERIFIED]" or "[SIMULATED]" in square brackets --
 these are for the project team only and must NEVER appear in your answer;
 write as if they are not there.{nationality_note}
@@ -274,9 +277,12 @@ know. Do NOT add generic filler advice that isn't actually in the context
 (e.g. don't say "bring your ID" or "bring relevant documents" unless the
 context specifically says so). Format the answer in Markdown: one short lead-in sentence, then a numbered
 list (or bullets) for requirements, steps or documents, with key terms in
-**bold**. For eligibility questions, list the GENERAL requirements first,
-then mention specific schemes only if the context covers them. Use up to
-about 200 words, warm and practical. If the context does not contain the answer, say so plainly and
+**bold**. Put EVERY list item on its own line, with a blank line before and
+after the list, and never run items together inside a paragraph. For
+eligibility questions, first list ALL the general requirements the context
+states (for example citizenship, student status and financial need) as
+separate numbered items, then add a second list for specific schemes only
+if the context covers them. Use up to about 220 words, warm and practical. If the context does not contain the answer, say so plainly and
 suggest the student contact the relevant office directly -- never invent
 policy details, deadlines, or contact information.
 
