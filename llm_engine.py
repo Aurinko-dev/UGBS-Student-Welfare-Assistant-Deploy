@@ -63,10 +63,21 @@ def _call_gemini(prompt: str) -> str:
         prompt,
         generation_config={
             "temperature": _get_tuning("tuning_temperature", 0.3),
-            "max_output_tokens": _get_tuning("tuning_max_tokens", 800),
+            "max_output_tokens": max(int(_get_tuning("tuning_max_tokens", 2048)), 2048),
         },
     )
-    return response.text.strip()
+    try:
+        print(f"[llm_engine] gemini finish_reason: {response.candidates[0].finish_reason}")
+    except Exception:
+        pass
+    try:
+        return response.text.strip()
+    except Exception:
+        text = ""
+        for cand in getattr(response, "candidates", None) or []:
+            for part in getattr(cand.content, "parts", None) or []:
+                text += getattr(part, "text", "") or ""
+        return text.strip()
 
 
 def _call_anthropic(prompt: str) -> str:
