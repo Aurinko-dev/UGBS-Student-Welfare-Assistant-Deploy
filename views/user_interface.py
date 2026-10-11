@@ -592,7 +592,7 @@ if user_query:
             st.stop()
 
         with st.spinner("Searching official welfare policy documents..."):
-            results = _search_with_recovery(vectorstore, normalized_query, k=3)
+            results = _search_with_recovery(vectorstore, normalized_query, k=5)
 
         _retrieval_cutoff = st.session_state.get("tuning_retrieval_cutoff", CONFIDENCE_THRESHOLD)
         if not results or results[0][1] > _retrieval_cutoff:
