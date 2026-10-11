@@ -91,12 +91,12 @@ def _render_feedback(interaction_id: int) -> None:
     if given:
         st.caption("👍 Marked helpful" if given == "up" else "😞 Marked not helpful")
         return
-    c1, c2, _ = st.columns([1, 1, 10])
-    if c1.button("👍", key=f"fb_up_{interaction_id}"):
+    c1, c2, _ = st.columns([2, 2, 6])
+    if c1.button("👍 Helpful", key=f"fb_up_{interaction_id}"):
         analytics_db.log_feedback(interaction_id, "up")
         st.session_state.feedback_given[interaction_id] = "up"
         st.rerun()
-    if c2.button("😞", key=f"fb_down_{interaction_id}"):
+    if c2.button("😞 Not helpful", key=f"fb_down_{interaction_id}"):
         analytics_db.log_feedback(interaction_id, "down")
         st.session_state.feedback_given[interaction_id] = "down"
         st.rerun()
