@@ -6,7 +6,7 @@ functions the rest of the app calls:
   classify_with_llm(query) -> (category, severity)
 
 If no API key is set, both functions fall back to a deterministic template
-so the app still runs end-to-end for a demo â€” it just won't have natural
+so the app still runs end-to-end for a demo — it just won't have natural
 generated prose. This matters for grading: the app should never crash or
 go blank just because a key isn't in the environment.
 """
@@ -151,21 +151,25 @@ def generate_grounded_answer(query: str, retrieved_chunks: list, category: str =
                 "\nFees and some figures in the context differ for Ghanaian vs. international "
                 "students. If the student's question depends on that and they haven't told you "
                 "which they are, ask them directly in one short sentence instead of guessing or "
-                "listing both â€” e.g. \"Are you a Ghanaian or international student? Fees differ "
+                "listing both — e.g. \"Are you a Ghanaian or international student? Fees differ "
                 "between the two.\"")
 
     prompt = f"""You are the UGBS Student Welfare Assistant, an AI intake system for
 University of Ghana Business School students. Answer the student's question
 using ONLY the context below. If the context does not contain the answer,
 say so plainly and suggest the student contact the relevant office directly
-â€” never invent policy details, deadlines, or contact information.
+— never invent policy details, deadlines, or contact information.
 
 Answer directly and plainly, the way you'd tell a friend -- do not start
 with phrases like "Based on the document" or "According to the source".
 Go straight to what the student needs to do or know. Do NOT add generic
 filler advice that isn't actually in the context (e.g. don't say "bring
 your ID" or "bring relevant documents" unless the context specifically
-says so). Keep it under 120 words, warm, and practical. The context may contain internal
+says so). Format the answer in Markdown: one short lead-in sentence, then a numbered
+list (or bullets) for requirements, steps or documents, with key terms in
+**bold**. For eligibility questions, list the GENERAL requirements first,
+then mention specific schemes only if the context covers them. Use up to
+about 200 words, warm and practical. The context may contain internal
 sourcing labels like "[VERIFIED]" or "[SIMULATED]" in square brackets --
 these are for the project team only and must NEVER appear in your answer;
 write as if they are not there.{nationality_note}
@@ -216,7 +220,7 @@ def generate_answer_and_plan(query: str, retrieved_chunks: list, category: str =
 
     def _fallback_plan():
         return ("For your exact next step, contact the recommended office directly "
-                "â€” they'll be able to confirm what applies to your situation.")
+                "— they'll be able to confirm what applies to your situation.")
 
     if not config.llm_is_configured():
         return _fallback_answer(), _fallback_plan()
@@ -237,7 +241,7 @@ def generate_answer_and_plan(query: str, retrieved_chunks: list, category: str =
                 "\nFees and some figures in the context differ for Ghanaian vs. international "
                 "students. If the student's question depends on that and they haven't told you "
                 "which they are, ask them directly in one short sentence instead of guessing or "
-                "listing both â€” e.g. \"Are you a Ghanaian or international student? Fees differ "
+                "listing both — e.g. \"Are you a Ghanaian or international student? Fees differ "
                 "between the two.\"")
 
     prompt = f"""You are the UGBS Student Welfare Assistant, an AI intake system for
@@ -257,8 +261,11 @@ friend -- do not start with phrases like "Based on the document" or
 "According to the source". Go straight to what the student needs to do or
 know. Do NOT add generic filler advice that isn't actually in the context
 (e.g. don't say "bring your ID" or "bring relevant documents" unless the
-context specifically says so). Keep it under 120 words, warm, and
-practical. If the context does not contain the answer, say so plainly and
+context specifically says so). Format the answer in Markdown: one short lead-in sentence, then a numbered
+list (or bullets) for requirements, steps or documents, with key terms in
+**bold**. For eligibility questions, list the GENERAL requirements first,
+then mention specific schemes only if the context covers them. Use up to
+about 200 words, warm and practical. If the context does not contain the answer, say so plainly and
 suggest the student contact the relevant office directly -- never invent
 policy details, deadlines, or contact information.
 
@@ -283,6 +290,8 @@ STUDENT QUESTION:
 
     try:
         raw = _strip_kb_tags(_call_llm(prompt))
+        if _PLAN_DELIMITER not in raw:  # one retry if the format was missed
+            raw = _strip_kb_tags(_call_llm(prompt))
         if _PLAN_DELIMITER in raw:
             answer_part, plan_part = raw.split(_PLAN_DELIMITER, 1)
         else:
@@ -318,7 +327,7 @@ def generate_action_plan(query: str, category: str, retrieved_chunks: list) -> s
         # user_interface.py) -- it's just never named in what the student
         # reads, same as the main LLM path already does.
         return ("For your exact next step, contact the recommended office directly "
-                "â€” they'll be able to confirm what applies to your situation.")
+                "— they'll be able to confirm what applies to your situation.")
 
     context_block = "\n\n---\n\n".join(
         f"[Source: {doc.metadata.get('source', 'unknown')}]\n{doc.page_content}"
@@ -329,13 +338,13 @@ def generate_action_plan(query: str, category: str, retrieved_chunks: list) -> s
 "{query}"
 
 Using ONLY the policy context below, write a short numbered action plan
-(2-4 steps) of exactly what the student should do next â€” concrete actions
-like "log into the STS portal", "submit form X", "visit office Y" â€” not
+(2-4 steps) of exactly what the student should do next — concrete actions
+like "log into the STS portal", "submit form X", "visit office Y" — not
 vague advice. Do NOT invent deadlines, phone numbers, or requirements that
 aren't in the context. Do NOT pad the list with generic filler that isn't
 actually stated (e.g. "bring your ID", "bring relevant documents") unless
 the context specifically mentions it. If there is genuinely only one real
-step, write one step â€” don't stretch it to hit a minimum count.
+step, write one step — don't stretch it to hit a minimum count.
 
 CONTEXT:
 {context_block}
@@ -348,7 +357,7 @@ ACTION PLAN (numbered list only):"""
         # Same as the no-LLM-configured fallback above -- no filename, no
         # "the details above" pointer, just a plain next step.
         return ("For your exact next step, contact the recommended office directly "
-                "â€” they'll be able to confirm what applies to your situation.")
+                "— they'll be able to confirm what applies to your situation.")
 
 
 def get_not_in_kb_reply(query: str) -> str:
